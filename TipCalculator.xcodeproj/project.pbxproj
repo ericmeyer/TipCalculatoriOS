@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		073C394C1B0B6ED000F5293B /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C394B1B0B6ED000F5293B /* Foo.swift */; };
+		07A1CAD61B0D035400B2960E /* EnterBillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A1CAD51B0D035400B2960E /* EnterBillController.swift */; };
 		07E7BC151B012C93009A8A4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7BC141B012C93009A8A4E /* AppDelegate.swift */; };
 		07E7BC171B012C93009A8A4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7BC161B012C93009A8A4E /* ViewController.swift */; };
 		07E7BC1A1B012C93009A8A4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E7BC181B012C93009A8A4E /* Main.storyboard */; };
@@ -70,6 +71,7 @@
 
 /* Begin PBXFileReference section */
 		073C394B1B0B6ED000F5293B /* Foo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
+		07A1CAD51B0D035400B2960E /* EnterBillController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterBillController.swift; sourceTree = "<group>"; };
 		07E7BC0F1B012C93009A8A4E /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E7BC131B012C93009A8A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07E7BC141B012C93009A8A4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				07E7BC3F1B012CBC009A8A4E /* NotificationController.swift */,
 				07E7BC411B012CBC009A8A4E /* Images.xcassets */,
 				07E7BC3A1B012CBC009A8A4E /* Supporting Files */,
+				07A1CAD51B0D035400B2960E /* EnterBillController.swift */,
 			);
 			path = "TipCalculator WatchKit Extension";
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 			files = (
 				07E7BC401B012CBC009A8A4E /* NotificationController.swift in Sources */,
 				07E7BC3E1B012CBC009A8A4E /* InterfaceController.swift in Sources */,
+				07A1CAD61B0D035400B2960E /* EnterBillController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

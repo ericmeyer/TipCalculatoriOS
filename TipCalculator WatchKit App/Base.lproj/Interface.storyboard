@@ -1,16 +1,98 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gQQ-GJ-tip">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
+        <!--Enter Bill Controller-->
+        <scene sceneID="aZQ-yA-UAC">
+            <objects>
+                <controller id="gQQ-GJ-tip" customClass="EnterBillController" customModule="TipCalculator_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="center" verticalAlignment="bottom" id="Xfx-fP-AIi">
+                            <items>
+                                <button alignment="right" verticalAlignment="bottom" title="Next" id="gpB-2C-ed4">
+                                    <connections>
+                                        <segue destination="AgC-eL-Hgc" kind="push" id="HqO-dJ-JMs"/>
+                                    </connections>
+                                </button>
+                                <label alignment="left" verticalAlignment="center" text="Label" id="1Fl-25-hZ0"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="PY4-FR-5Bc">
+                            <items>
+                                <button alignment="left" title="7" id="9xw-kF-JlS">
+                                    <connections>
+                                        <action selector="pressSeven" destination="gQQ-GJ-tip" id="N5z-Za-Nk8"/>
+                                    </connections>
+                                </button>
+                                <button alignment="left" title="8" id="ssg-Bt-Dhv">
+                                    <connections>
+                                        <action selector="pressEight" destination="gQQ-GJ-tip" id="hlR-AH-BRg"/>
+                                    </connections>
+                                </button>
+                                <button alignment="left" title="9" id="IGX-sD-MtK">
+                                    <connections>
+                                        <action selector="pressNine" destination="gQQ-GJ-tip" id="qcx-ix-MC0"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="lAJ-kM-HVa">
+                            <items>
+                                <button alignment="left" title="4" id="Zue-Rz-zbY">
+                                    <connections>
+                                        <action selector="pressFour" destination="gQQ-GJ-tip" id="Tx2-2b-vRZ"/>
+                                    </connections>
+                                </button>
+                                <button alignment="left" title="5" id="83V-fD-Fp6">
+                                    <connections>
+                                        <action selector="pressFive" destination="gQQ-GJ-tip" id="Pf9-b5-dFJ"/>
+                                    </connections>
+                                </button>
+                                <button alignment="left" title="6" id="mPc-jC-xLg">
+                                    <connections>
+                                        <action selector="pressSix" destination="gQQ-GJ-tip" id="65N-gH-Zqw"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="bZt-CE-DdA">
+                            <items>
+                                <button alignment="left" title="0" id="ryH-Bj-8fA">
+                                    <connections>
+                                        <action selector="pressZero" destination="gQQ-GJ-tip" id="2PE-Dd-5jw"/>
+                                    </connections>
+                                </button>
+                                <button alignment="left" title="1" id="umZ-E0-52G">
+                                    <connections>
+                                        <action selector="pressOne" destination="gQQ-GJ-tip" id="aSP-mV-4Ur"/>
+                                    </connections>
+                                </button>
+                                <button alignment="left" title="2" id="Ygh-1b-Dxv">
+                                    <connections>
+                                        <action selector="pressTwo" destination="gQQ-GJ-tip" id="Tw0-z6-nhh"/>
+                                    </connections>
+                                </button>
+                                <button alignment="left" title="3" id="wR0-aQ-Nks">
+                                    <connections>
+                                        <action selector="pressThree" destination="gQQ-GJ-tip" id="OUe-bh-RmN"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="98" y="311"/>
+        </scene>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="TipCalculator_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="center" text="Tip Calculator" textAlignment="center" id="CHr-fX-iTn"/>
+                        <label alignment="center" text="Tip Percent" textAlignment="center" id="CHr-fX-iTn"/>
                         <label width="44" alignment="center" text="XX%" textAlignment="center" id="xHL-Hz-3N9"/>
                         <slider width="1" alignment="left" accessibilityLabel="Percent" continuous="YES" value="15" maximum="30" steps="30" id="kSf-T5-2NF">
                             <connections>
@@ -23,7 +105,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="332" y="311"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
