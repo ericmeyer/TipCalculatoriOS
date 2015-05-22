@@ -29,8 +29,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "07E7BC231B012C93009A8A4E"
-               BuildableName = "TipCalculatorTests.xctest"
-               BlueprintName = "TipCalculatorTests"
+               BuildableName = "TipCalculatorSpec.xctest"
+               BlueprintName = "TipCalculatorSpec"
                ReferencedContainer = "container:TipCalculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,8 +47,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "07E7BC231B012C93009A8A4E"
-               BuildableName = "TipCalculatorTests.xctest"
-               BlueprintName = "TipCalculatorTests"
+               BuildableName = "TipCalculatorSpec.xctest"
+               BlueprintName = "TipCalculatorSpec"
                ReferencedContainer = "container:TipCalculator.xcodeproj">
             </BuildableReference>
          </TestableReference>

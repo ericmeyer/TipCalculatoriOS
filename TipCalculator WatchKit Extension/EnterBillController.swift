@@ -1,11 +1,34 @@
 import WatchKit
 import Foundation
 
-
 class EnterBillController: WKInterfaceController {
+
+    let numpad = Numpad()
+
+    @IBOutlet weak var numpadDisplay: WKInterfaceLabel!
 
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
+    }
+
+    override func willActivate() {
+        // This method is called when watch view controller is about to be visible to user
+        super.willActivate()
+        clear()
+    }
+
+    override func didDeactivate() {
+        // This method is called when watch view controller is no longer visible
+        super.didDeactivate()
+    }
+
+    override func contextForSegueWithIdentifier(segueIdentifier: String) -> AnyObject? {
+        return "Hey"
+    }
+
+    @IBAction func clear() {
+        numpad.clear()
+        numpadDisplay.setText(numpad.display)
     }
 
     @IBAction func pressZero() {
@@ -50,20 +73,8 @@ class EnterBillController: WKInterfaceController {
 
     private func pressNumber(number: Int) {
         println("Number: \(number)")
-    }
-
-    override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
-        super.willActivate()
-    }
-
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
-        super.didDeactivate()
-    }
-
-    override func contextForSegueWithIdentifier(segueIdentifier: String) -> AnyObject? {
-        return "Hey"
+        numpad.press(number: number)
+        numpadDisplay.setText(numpad.display)
     }
 
 }

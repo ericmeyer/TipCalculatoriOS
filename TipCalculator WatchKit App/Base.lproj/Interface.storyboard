@@ -12,6 +12,11 @@
                     <items>
                         <group width="1" alignment="center" verticalAlignment="bottom" id="Xfx-fP-AIi">
                             <items>
+                                <button alignment="right" title="Clear" id="ofC-9f-d7a">
+                                    <connections>
+                                        <action selector="clear" destination="gQQ-GJ-tip" id="oIs-vO-7md"/>
+                                    </connections>
+                                </button>
                                 <button alignment="right" verticalAlignment="bottom" title="Next" id="gpB-2C-ed4">
                                     <connections>
                                         <segue destination="AgC-eL-Hgc" kind="push" id="HqO-dJ-JMs"/>
@@ -83,6 +88,9 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="numpadDisplay" destination="1Fl-25-hZ0" id="pAy-3b-MZM"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="98" y="311"/>
