@@ -23,7 +23,9 @@ class EnterBillController: WKInterfaceController {
     }
 
     override func contextForSegueWithIdentifier(segueIdentifier: String) -> AnyObject? {
-        return "Hey"
+        return [
+            "billSubTotal" : numpad.value
+        ]
     }
 
     @IBAction func clear() {
@@ -71,8 +73,12 @@ class EnterBillController: WKInterfaceController {
         pressNumber(9)
     }
 
+    @IBAction func pressDot() {
+        numpad.pressDot()
+        numpadDisplay.setText(numpad.display)
+    }
+
     private func pressNumber(number: Int) {
-        println("Number: \(number)")
         numpad.press(number: number)
         numpadDisplay.setText(numpad.display)
     }

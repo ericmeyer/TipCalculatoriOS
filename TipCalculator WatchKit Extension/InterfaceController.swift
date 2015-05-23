@@ -14,7 +14,6 @@ class InterfaceController: WKInterfaceController {
         super.awakeWithContext(context)
         println(context)
         tipPercentDisplay.setText("15%")
-        // Configure interface objects here.
     }
 
     override func willActivate() {

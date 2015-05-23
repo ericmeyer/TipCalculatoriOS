@@ -61,6 +61,11 @@
                                         <action selector="pressSix" destination="gQQ-GJ-tip" id="65N-gH-Zqw"/>
                                     </connections>
                                 </button>
+                                <button alignment="left" title="." id="W0N-gm-5ms">
+                                    <connections>
+                                        <action selector="pressDot" destination="gQQ-GJ-tip" id="T5u-SG-sm7"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                         <group width="1" alignment="left" id="bZt-CE-DdA">

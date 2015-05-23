@@ -4,26 +4,16 @@ public class Numpad {
 
     public var value: Float {
         get {
-            var string = ""
-            for char in chars {
-                string = string + char
-            }
-            if string == "" {
+            if display == "" {
                 return 0
             } else {
-                return (string as NSString).floatValue
+                return (display as NSString).floatValue
             }
         }
     }
     public var display: String {
         get {
-            if value == 0 {
-                return ""
-            } else if value == Float(Int(value)) {
-                return "\(Int(value))"
-            } else {
-                return "\(value)"
-            }
+            return join("", chars)
         }
     }
     public var chars: [String]
@@ -33,7 +23,9 @@ public class Numpad {
     }
 
     public func press(#number: Int) {
-        chars.append("\(number)")
+        if !chars.isEmpty || number != 0 {
+            chars.append("\(number)")
+        }
     }
 
     public func pressDot() {

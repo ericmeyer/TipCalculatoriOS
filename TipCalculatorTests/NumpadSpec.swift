@@ -11,7 +11,7 @@ class NumpadSpec: QuickSpec {
             numpad = Numpad()
         }
 
-        it("starts at 0") {
+        it("starts displaying nothing") {
             expect(numpad.value).to(equal(0))
             expect(numpad.display).to(equal(""))
         }
@@ -45,6 +45,15 @@ class NumpadSpec: QuickSpec {
             numpad.press(number: 8)
 
             expect(numpad.value).to(equal(4.8))
+            expect(numpad.display).to(equal("4.8"))
+        }
+
+        it("shows a trailing decimal") {
+            numpad.press(number: 4)
+            numpad.pressDot()
+
+            expect(numpad.value).to(equal(4))
+            expect(numpad.display).to(equal("4."))
         }
 
         it("cannot have multiple decimals") {
@@ -56,6 +65,22 @@ class NumpadSpec: QuickSpec {
 
             expect(numpad.value).to(equal(4.85))
             expect(numpad.display).to(equal("4.85"))
+        }
+
+        it("ignores leading zeros") {
+            numpad.press(number: 0)
+            numpad.press(number: 0)
+
+            expect(numpad.value).to(equal(0))
+            expect(numpad.display).to(equal(""))
+        }
+
+        it("works starting with a decimal") {
+            numpad.pressDot()
+            numpad.press(number: 5)
+
+            expect(numpad.value).to(equal(0.5))
+            expect(numpad.display).to(equal(".5"))
         }
     }
 
