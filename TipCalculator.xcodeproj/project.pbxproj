@@ -29,6 +29,9 @@
 		07F361961B0E0E64003657AB /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F361811B0E0E3D003657AB /* Quick.framework */; };
 		07F3619A1B0E1499003657AB /* Numpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F361991B0E1499003657AB /* Numpad.swift */; };
 		07F3619B1B0E14B3003657AB /* NumpadSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F361971B0E1468003657AB /* NumpadSpec.swift */; };
+		2FA28083382EB0C6B29199B7 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */; };
+		2FA288BEFFE8168089A5CCAB /* CurrencyFormatterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA2821D1F175EEBF81266E6 /* CurrencyFormatterSpec.swift */; };
+		2FA28C8AA698869D5451B4E9 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +177,8 @@
 		07F361861B0E0E42003657AB /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Vendor/Nimble/Nimble.xcodeproj; sourceTree = "<group>"; };
 		07F361971B0E1468003657AB /* NumpadSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumpadSpec.swift; sourceTree = "<group>"; };
 		07F361991B0E1499003657AB /* Numpad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numpad.swift; sourceTree = "<group>"; };
+		2FA2821D1F175EEBF81266E6 /* CurrencyFormatterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterSpec.swift; sourceTree = "<group>"; };
+		2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +251,7 @@
 				073C394B1B0B6ED000F5293B /* Foo.swift */,
 				07F361991B0E1499003657AB /* Numpad.swift */,
 				0779B2DC1B1169F900D42E41 /* Bill.swift */,
+				2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -265,6 +271,7 @@
 				07E7BC281B012C93009A8A4E /* Supporting Files */,
 				07F361971B0E1468003657AB /* NumpadSpec.swift */,
 				0779B2E01B116A6400D42E41 /* BillSpec.swift */,
+				2FA2821D1F175EEBF81266E6 /* CurrencyFormatterSpec.swift */,
 			);
 			name = TipCalculatorSpec;
 			path = TipCalculatorTests;
@@ -591,6 +598,7 @@
 				073C394C1B0B6ED000F5293B /* Foo.swift in Sources */,
 				07F3619A1B0E1499003657AB /* Numpad.swift in Sources */,
 				07E7BC151B012C93009A8A4E /* AppDelegate.swift in Sources */,
+				2FA28C8AA698869D5451B4E9 /* CurrencyFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,6 +608,7 @@
 			files = (
 				07F3619B1B0E14B3003657AB /* NumpadSpec.swift in Sources */,
 				0779B2E11B116A6400D42E41 /* BillSpec.swift in Sources */,
+				2FA288BEFFE8168089A5CCAB /* CurrencyFormatterSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -612,6 +621,7 @@
 				07E7BC401B012CBC009A8A4E /* NotificationController.swift in Sources */,
 				07E7BC3E1B012CBC009A8A4E /* InterfaceController.swift in Sources */,
 				07A1CAD61B0D035400B2960E /* EnterBillController.swift in Sources */,
+				2FA28083382EB0C6B29199B7 /* CurrencyFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
