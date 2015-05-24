@@ -105,7 +105,7 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="TipCalculator_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="center" text="Tip Percent" textAlignment="center" id="CHr-fX-iTn"/>
+                        <label alignment="center" text="Total" id="hmR-d1-rFm"/>
                         <label width="44" alignment="center" text="XX%" textAlignment="center" id="xHL-Hz-3N9"/>
                         <slider width="1" alignment="left" accessibilityLabel="Percent" continuous="YES" value="15" maximum="30" steps="30" id="kSf-T5-2NF">
                             <connections>
@@ -115,6 +115,7 @@
                     </items>
                     <connections>
                         <outlet property="tipPercentDisplay" destination="xHL-Hz-3N9" id="IdJ-l5-K1y"/>
+                        <outlet property="total" destination="hmR-d1-rFm" id="VCf-b2-glY"/>
                     </connections>
                 </controller>
             </objects>

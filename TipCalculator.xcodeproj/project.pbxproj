@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		073C394C1B0B6ED000F5293B /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C394B1B0B6ED000F5293B /* Foo.swift */; };
+		0779B2DD1B1169F900D42E41 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2DC1B1169F900D42E41 /* Bill.swift */; };
+		0779B2DF1B116A1B00D42E41 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2DC1B1169F900D42E41 /* Bill.swift */; };
+		0779B2E11B116A6400D42E41 /* BillSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2E01B116A6400D42E41 /* BillSpec.swift */; };
 		07821FB11B0EB29E00E6144B /* Numpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F361991B0E1499003657AB /* Numpad.swift */; };
 		07A1CAD61B0D035400B2960E /* EnterBillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A1CAD51B0D035400B2960E /* EnterBillController.swift */; };
 		07E7BC151B012C93009A8A4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7BC141B012C93009A8A4E /* AppDelegate.swift */; };
@@ -145,6 +148,8 @@
 
 /* Begin PBXFileReference section */
 		073C394B1B0B6ED000F5293B /* Foo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
+		0779B2DC1B1169F900D42E41 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		0779B2E01B116A6400D42E41 /* BillSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillSpec.swift; sourceTree = "<group>"; };
 		07A1CAD51B0D035400B2960E /* EnterBillController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterBillController.swift; sourceTree = "<group>"; };
 		07E7BC0F1B012C93009A8A4E /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E7BC131B012C93009A8A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -240,6 +245,7 @@
 				07E7BC121B012C93009A8A4E /* Supporting Files */,
 				073C394B1B0B6ED000F5293B /* Foo.swift */,
 				07F361991B0E1499003657AB /* Numpad.swift */,
+				0779B2DC1B1169F900D42E41 /* Bill.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -258,6 +264,7 @@
 				07D16B0E1B0175E7008F5886 /* Watch */,
 				07E7BC281B012C93009A8A4E /* Supporting Files */,
 				07F361971B0E1468003657AB /* NumpadSpec.swift */,
+				0779B2E01B116A6400D42E41 /* BillSpec.swift */,
 			);
 			name = TipCalculatorSpec;
 			path = TipCalculatorTests;
@@ -580,6 +587,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07E7BC171B012C93009A8A4E /* ViewController.swift in Sources */,
+				0779B2DD1B1169F900D42E41 /* Bill.swift in Sources */,
 				073C394C1B0B6ED000F5293B /* Foo.swift in Sources */,
 				07F3619A1B0E1499003657AB /* Numpad.swift in Sources */,
 				07E7BC151B012C93009A8A4E /* AppDelegate.swift in Sources */,
@@ -591,6 +599,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07F3619B1B0E14B3003657AB /* NumpadSpec.swift in Sources */,
+				0779B2E11B116A6400D42E41 /* BillSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +608,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07821FB11B0EB29E00E6144B /* Numpad.swift in Sources */,
+				0779B2DF1B116A1B00D42E41 /* Bill.swift in Sources */,
 				07E7BC401B012CBC009A8A4E /* NotificationController.swift in Sources */,
 				07E7BC3E1B012CBC009A8A4E /* InterfaceController.swift in Sources */,
 				07A1CAD61B0D035400B2960E /* EnterBillController.swift in Sources */,
