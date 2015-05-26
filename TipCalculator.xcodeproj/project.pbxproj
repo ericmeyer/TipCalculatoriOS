@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		073C394C1B0B6ED000F5293B /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C394B1B0B6ED000F5293B /* Foo.swift */; };
 		0779B2DD1B1169F900D42E41 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2DC1B1169F900D42E41 /* Bill.swift */; };
 		0779B2DF1B116A1B00D42E41 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2DC1B1169F900D42E41 /* Bill.swift */; };
 		0779B2E11B116A6400D42E41 /* BillSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2E01B116A6400D42E41 /* BillSpec.swift */; };
@@ -150,7 +149,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		073C394B1B0B6ED000F5293B /* Foo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
 		0779B2DC1B1169F900D42E41 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		0779B2E01B116A6400D42E41 /* BillSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillSpec.swift; sourceTree = "<group>"; };
 		07A1CAD51B0D035400B2960E /* EnterBillController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterBillController.swift; sourceTree = "<group>"; };
@@ -248,7 +246,6 @@
 				07E7BC1B1B012C93009A8A4E /* Images.xcassets */,
 				07E7BC1D1B012C93009A8A4E /* LaunchScreen.xib */,
 				07E7BC121B012C93009A8A4E /* Supporting Files */,
-				073C394B1B0B6ED000F5293B /* Foo.swift */,
 				07F361991B0E1499003657AB /* Numpad.swift */,
 				0779B2DC1B1169F900D42E41 /* Bill.swift */,
 				2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */,
@@ -595,7 +592,6 @@
 			files = (
 				07E7BC171B012C93009A8A4E /* ViewController.swift in Sources */,
 				0779B2DD1B1169F900D42E41 /* Bill.swift in Sources */,
-				073C394C1B0B6ED000F5293B /* Foo.swift in Sources */,
 				07F3619A1B0E1499003657AB /* Numpad.swift in Sources */,
 				07E7BC151B012C93009A8A4E /* AppDelegate.swift in Sources */,
 				2FA28C8AA698869D5451B4E9 /* CurrencyFormatter.swift in Sources */,
