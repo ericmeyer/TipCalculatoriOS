@@ -7,18 +7,9 @@ class EnterBillController: WKInterfaceController {
 
     @IBOutlet weak var numpadDisplay: WKInterfaceLabel!
 
-    override func awakeWithContext(context: AnyObject?) {
-        super.awakeWithContext(context)
-    }
-
     override func willActivate() {
         super.willActivate()
         clear()
-    }
-
-    override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
-        super.didDeactivate()
     }
 
     override func contextForSegueWithIdentifier(segueIdentifier: String) -> AnyObject? {
@@ -29,6 +20,16 @@ class EnterBillController: WKInterfaceController {
 
     @IBAction func clear() {
         numpad.clear()
+        numpadDisplay.setText(numpad.display)
+    }
+
+    @IBAction func pressDot() {
+        numpad.pressDot()
+        numpadDisplay.setText(numpad.display)
+    }
+
+    private func pressNumber(number: Int) {
+        numpad.press(number: number)
         numpadDisplay.setText(numpad.display)
     }
 
@@ -70,16 +71,6 @@ class EnterBillController: WKInterfaceController {
 
     @IBAction func pressNine() {
         pressNumber(9)
-    }
-
-    @IBAction func pressDot() {
-        numpad.pressDot()
-        numpadDisplay.setText(numpad.display)
-    }
-
-    private func pressNumber(number: Int) {
-        numpad.press(number: number)
-        numpadDisplay.setText(numpad.display)
     }
 
 }
