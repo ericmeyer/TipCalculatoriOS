@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0772B2DD1B1549EE00BC5920 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F361811B0E0E3D003657AB /* Quick.framework */; };
+		0772B2E31B154A9400BC5920 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07F3617B1B0E0E3D003657AB /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0772B2E51B154A9400BC5920 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07F361921B0E0E42003657AB /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0779B2DD1B1169F900D42E41 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2DC1B1169F900D42E41 /* Bill.swift */; };
 		0779B2DF1B116A1B00D42E41 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2DC1B1169F900D42E41 /* Bill.swift */; };
 		0779B2E11B116A6400D42E41 /* BillSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2E01B116A6400D42E41 /* BillSpec.swift */; };
@@ -25,7 +28,6 @@
 		07E7BC501B012CBC009A8A4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E7BC4F1B012CBC009A8A4E /* Images.xcassets */; };
 		07E7BC531B012CBC009A8A4E /* TipCalculator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 07E7BC381B012CBC009A8A4E /* TipCalculator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		07F361951B0E0E64003657AB /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3618E1B0E0E42003657AB /* Nimble.framework */; };
-		07F361961B0E0E64003657AB /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F361811B0E0E3D003657AB /* Quick.framework */; };
 		07F3619A1B0E1499003657AB /* Numpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F361991B0E1499003657AB /* Numpad.swift */; };
 		07F3619B1B0E14B3003657AB /* NumpadSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F361971B0E1468003657AB /* NumpadSpec.swift */; };
 		2FA28083382EB0C6B29199B7 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */; };
@@ -135,6 +137,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		0772B2E21B154A8000BC5920 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0772B2E31B154A9400BC5920 /* Quick.framework in CopyFiles */,
+				0772B2E51B154A9400BC5920 /* Nimble.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		07E7BC5A1B012CBC009A8A4E /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -191,8 +204,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0772B2DD1B1549EE00BC5920 /* Quick.framework in Frameworks */,
 				07F361951B0E0E64003657AB /* Nimble.framework in Frameworks */,
-				07F361961B0E0E64003657AB /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +387,7 @@
 				07E7BC201B012C93009A8A4E /* Sources */,
 				07E7BC211B012C93009A8A4E /* Frameworks */,
 				07E7BC221B012C93009A8A4E /* Resources */,
+				0772B2E21B154A8000BC5920 /* CopyFiles */,
 			);
 			buildRules = (
 			);
