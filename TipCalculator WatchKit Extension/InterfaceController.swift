@@ -10,9 +10,9 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet weak var tipPercentDisplay: WKInterfaceLabel!
     @IBOutlet weak var total: WKInterfaceLabel!
 
-    @IBAction func tipChanged(value: Float) {
-        bill.tipPercentage = value
-        tipPercentDisplay.setText("\(Int(value))%")
+    @IBAction func tipChanged(tipPercentage: Float) {
+        bill.tipPercentage = tipPercentage
+        tipPercentDisplay.setText("\(Int(tipPercentage))%")
         total.setText(formatter.format(bill.total()))
     }
 
