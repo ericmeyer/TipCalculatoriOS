@@ -2,7 +2,7 @@ import WatchKit
 import Foundation
 
 
-class InterfaceController: WKInterfaceController {
+class CalculateTotalController: WKInterfaceController {
 
     let bill = Bill()
     let formatter = CurrencyFormatter()

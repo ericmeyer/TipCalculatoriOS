@@ -103,7 +103,7 @@
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="TipCalculator_WatchKit_App" customModuleProvider="target">
+                <controller id="AgC-eL-Hgc" customClass="CalculateTotalController" customModule="TipCalculator_WatchKit_App" customModuleProvider="target">
                     <items>
                         <label alignment="center" text="Total" id="hmR-d1-rFm"/>
                         <label width="44" alignment="center" text="XX%" textAlignment="center" id="xHL-Hz-3N9"/>
