@@ -1,3 +1,5 @@
+import Foundation
+
 public class Bill {
 
     public var subtotal: Float = 0
@@ -7,11 +9,22 @@ public class Bill {
     public init() {}
 
     public func total() -> Float {
-        return subtotal * (1 + (tipPercentage / 100))
+        return subtotal + tip()
+    }
+
+    public func tip() -> Float {
+        return Float(round(unroundedTip()*100) / 100)
     }
 
     public func totalPerPerson() -> Float {
         return total() / Float(numberOfPeople)
     }
 
+    public func tipPerPerson() -> Float {
+        return tip() / Float(numberOfPeople)
+    }
+
+    private func unroundedTip() -> Float {
+        return subtotal * (tipPercentage / 100)
+    }
 }

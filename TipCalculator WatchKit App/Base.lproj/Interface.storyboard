@@ -100,20 +100,24 @@
             </objects>
             <point key="canvasLocation" x="98" y="311"/>
         </scene>
-        <!--Interface Controller-->
+        <!--Calculate Total Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="CalculateTotalController" customModule="TipCalculator_WatchKit_App" customModuleProvider="target">
                     <items>
+                        <label alignment="center" text="Subtotal" id="Xjl-7v-OgN"/>
+                        <label alignment="center" text="Tip" id="U29-sF-UT0"/>
                         <label alignment="center" text="Total" id="hmR-d1-rFm"/>
-                        <label width="44" alignment="center" text="XX%" textAlignment="center" id="xHL-Hz-3N9"/>
-                        <slider width="1" alignment="left" accessibilityLabel="Percent" continuous="YES" value="15" maximum="30" steps="30" id="kSf-T5-2NF">
+                        <label width="44" alignment="center" verticalAlignment="bottom" text="XX%" textAlignment="center" id="xHL-Hz-3N9"/>
+                        <slider width="1" alignment="left" verticalAlignment="bottom" accessibilityLabel="Percent" continuous="YES" value="15" maximum="30" steps="30" id="kSf-T5-2NF">
                             <connections>
                                 <action selector="tipChanged:" destination="AgC-eL-Hgc" id="NWD-my-dH2"/>
                             </connections>
                         </slider>
                     </items>
                     <connections>
+                        <outlet property="subtotal" destination="Xjl-7v-OgN" id="hxo-Ch-uaG"/>
+                        <outlet property="tip" destination="U29-sF-UT0" id="ZS4-Ck-eW0"/>
                         <outlet property="tipPercentDisplay" destination="xHL-Hz-3N9" id="IdJ-l5-K1y"/>
                         <outlet property="total" destination="hmR-d1-rFm" id="VCf-b2-glY"/>
                     </connections>
