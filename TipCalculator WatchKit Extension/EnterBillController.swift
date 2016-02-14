@@ -4,6 +4,7 @@ import Foundation
 class EnterBillController: WKInterfaceController {
 
     let numpad = Numpad()
+    let formatter = CurrencyFormatter()
 
     @IBOutlet weak var numpadDisplay: WKInterfaceLabel!
 
@@ -14,23 +15,27 @@ class EnterBillController: WKInterfaceController {
 
     override func contextForSegueWithIdentifier(segueIdentifier: String) -> AnyObject? {
         return [
-            "billSubTotal" : numpad.value
+            "billSubTotal" : numpad.value / 100
         ]
     }
 
     @IBAction func clear() {
         numpad.clear()
-        numpadDisplay.setText(numpad.display)
+        updateDisplay()
     }
 
     @IBAction func pressDot() {
         numpad.pressDot()
-        numpadDisplay.setText(numpad.display)
+        updateDisplay()
     }
 
     private func pressNumber(number: Int) {
         numpad.press(number: number)
-        numpadDisplay.setText(numpad.display)
+        updateDisplay()
+    }
+
+    private func updateDisplay() {
+        numpadDisplay.setText(formatter.format(numpad.value / 100))
     }
 
     @IBAction func pressZero() {

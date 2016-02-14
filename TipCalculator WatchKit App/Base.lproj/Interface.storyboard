@@ -27,17 +27,17 @@
                         </group>
                         <group width="1" alignment="left" id="PY4-FR-5Bc">
                             <items>
-                                <button alignment="left" title="7" id="9xw-kF-JlS">
+                                <button width="0.33000000000000002" alignment="left" title="7" id="9xw-kF-JlS">
                                     <connections>
                                         <action selector="pressSeven" destination="gQQ-GJ-tip" id="N5z-Za-Nk8"/>
                                     </connections>
                                 </button>
-                                <button alignment="left" title="8" id="ssg-Bt-Dhv">
+                                <button width="0.33000000000000002" alignment="left" title="8" id="ssg-Bt-Dhv">
                                     <connections>
                                         <action selector="pressEight" destination="gQQ-GJ-tip" id="hlR-AH-BRg"/>
                                     </connections>
                                 </button>
-                                <button alignment="left" title="9" id="IGX-sD-MtK">
+                                <button width="0.33000000000000002" alignment="left" title="9" id="IGX-sD-MtK">
                                     <connections>
                                         <action selector="pressNine" destination="gQQ-GJ-tip" id="qcx-ix-MC0"/>
                                     </connections>

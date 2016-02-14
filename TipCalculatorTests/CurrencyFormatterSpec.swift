@@ -9,8 +9,16 @@ class CurrencyFormatterSpec: QuickSpec {
     }
 
     override func spec() {
-        it("formats dollars only") {
-            expect(self.format(123)).to(equal("$123"))
+        it("formats 0") {
+            expect(self.format(0)).to(equal("$0.00"))
+        }
+
+        it("includes the leading 0 for an amount less than a dollar") {
+            expect(self.format(0.12)).to(equal("$0.12"))
+        }
+
+        it("includes cents for a whole dollar") {
+            expect(self.format(123)).to(equal("$123.00"))
         }
 
         it("formats simple dollars and cents") {
