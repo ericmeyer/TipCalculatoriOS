@@ -13,7 +13,7 @@ public class Numpad {
     }
     public var display: String {
         get {
-            return join("", chars)
+            return chars.joinWithSeparator("")
         }
     }
     public var chars: [String]
@@ -22,14 +22,14 @@ public class Numpad {
         chars = []
     }
 
-    public func press(#number: Int) {
+    public func press(number number: Int) {
         if !chars.isEmpty || number != 0 {
             chars.append("\(number)")
         }
     }
 
     public func pressDot() {
-        if !contains(chars, ".") {
+        if !chars.contains(".") {
             chars.append(".")
         }
     }

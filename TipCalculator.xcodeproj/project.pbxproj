@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0772B2DD1B1549EE00BC5920 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F361811B0E0E3D003657AB /* Quick.framework */; };
-		0772B2E31B154A9400BC5920 /* Quick.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07F3617B1B0E0E3D003657AB /* Quick.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0772B2E51B154A9400BC5920 /* Nimble.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 07F361921B0E0E42003657AB /* Nimble.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0779B2DD1B1169F900D42E41 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2DC1B1169F900D42E41 /* Bill.swift */; };
 		0779B2DF1B116A1B00D42E41 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2DC1B1169F900D42E41 /* Bill.swift */; };
 		0779B2E11B116A6400D42E41 /* BillSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2E01B116A6400D42E41 /* BillSpec.swift */; };
@@ -27,12 +24,12 @@
 		07E7BC4E1B012CBC009A8A4E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E7BC4C1B012CBC009A8A4E /* Interface.storyboard */; };
 		07E7BC501B012CBC009A8A4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E7BC4F1B012CBC009A8A4E /* Images.xcassets */; };
 		07E7BC531B012CBC009A8A4E /* TipCalculator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 07E7BC381B012CBC009A8A4E /* TipCalculator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		07F361951B0E0E64003657AB /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F3618E1B0E0E42003657AB /* Nimble.framework */; };
 		07F3619A1B0E1499003657AB /* Numpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F361991B0E1499003657AB /* Numpad.swift */; };
 		07F3619B1B0E14B3003657AB /* NumpadSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F361971B0E1468003657AB /* NumpadSpec.swift */; };
 		2FA28083382EB0C6B29199B7 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */; };
 		2FA288BEFFE8168089A5CCAB /* CurrencyFormatterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA2821D1F175EEBF81266E6 /* CurrencyFormatterSpec.swift */; };
 		2FA28C8AA698869D5451B4E9 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */; };
+		CF39CEF7F51FA7BD33E79789 /* Pods_TipCalculatorSpec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8BBB2A99E4B50FF5BB3F91 /* Pods_TipCalculatorSpec.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,76 +61,6 @@
 			remoteGlobalIDString = 07E7BC371B012CBC009A8A4E;
 			remoteInfo = "TipCalculator WatchKit Extension";
 		};
-		07F3617A1B0E0E3D003657AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07F361711B0E0E3D003657AB /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DAEB6B8E1943873100289F44;
-			remoteInfo = "Quick-OSX";
-		};
-		07F3617C1B0E0E3D003657AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07F361711B0E0E3D003657AB /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DAEB6B991943873100289F44;
-			remoteInfo = "Quick-OSXTests";
-		};
-		07F3617E1B0E0E3D003657AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07F361711B0E0E3D003657AB /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DA5663E81A4C8D8500193C88;
-			remoteInfo = "QuickFocused-OSXTests";
-		};
-		07F361801B0E0E3D003657AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07F361711B0E0E3D003657AB /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5A5D117C19473F2100F6D13D;
-			remoteInfo = "Quick-iOS";
-		};
-		07F361821B0E0E3D003657AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07F361711B0E0E3D003657AB /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5A5D118619473F2100F6D13D;
-			remoteInfo = "Quick-iOSTests";
-		};
-		07F361841B0E0E3D003657AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07F361711B0E0E3D003657AB /* Quick.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DA9876B21A4C70EB0004AA17;
-			remoteInfo = "QuickFocused-iOSTests";
-		};
-		07F3618D1B0E0E42003657AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07F361861B0E0E42003657AB /* Nimble.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1F1A74291940169200FFFC47;
-			remoteInfo = "Nimble-iOS";
-		};
-		07F3618F1B0E0E42003657AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07F361861B0E0E42003657AB /* Nimble.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1F1A74341940169200FFFC47;
-			remoteInfo = "Nimble-iOSTests";
-		};
-		07F361911B0E0E42003657AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07F361861B0E0E42003657AB /* Nimble.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1F925EAD195C0D6300ED456B;
-			remoteInfo = "Nimble-OSX";
-		};
-		07F361931B0E0E42003657AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07F361861B0E0E42003657AB /* Nimble.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1F925EB7195C0D6300ED456B;
-			remoteInfo = "Nimble-OSXTests";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -143,8 +70,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0772B2E31B154A9400BC5920 /* Quick.framework in CopyFiles */,
-				0772B2E51B154A9400BC5920 /* Nimble.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,12 +109,13 @@
 		07E7BC4B1B012CBC009A8A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07E7BC4D1B012CBC009A8A4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		07E7BC4F1B012CBC009A8A4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		07F361711B0E0E3D003657AB /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = Vendor/Quick/Quick.xcodeproj; sourceTree = "<group>"; };
-		07F361861B0E0E42003657AB /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Vendor/Nimble/Nimble.xcodeproj; sourceTree = "<group>"; };
 		07F361971B0E1468003657AB /* NumpadSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumpadSpec.swift; sourceTree = "<group>"; };
 		07F361991B0E1499003657AB /* Numpad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numpad.swift; sourceTree = "<group>"; };
 		2FA2821D1F175EEBF81266E6 /* CurrencyFormatterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterSpec.swift; sourceTree = "<group>"; };
 		2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		5F8BBB2A99E4B50FF5BB3F91 /* Pods_TipCalculatorSpec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipCalculatorSpec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D0F3CDD8C52247A020C632 /* Pods-TipCalculatorSpec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipCalculatorSpec.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipCalculatorSpec/Pods-TipCalculatorSpec.release.xcconfig"; sourceTree = "<group>"; };
+		DE7F30248C4532F768EE334C /* Pods-TipCalculatorSpec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipCalculatorSpec.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipCalculatorSpec/Pods-TipCalculatorSpec.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,8 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0772B2DD1B1549EE00BC5920 /* Quick.framework in Frameworks */,
-				07F361951B0E0E64003657AB /* Nimble.framework in Frameworks */,
+				CF39CEF7F51FA7BD33E79789 /* Pods_TipCalculatorSpec.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,13 +154,13 @@
 		07E7BC061B012C93009A8A4E = {
 			isa = PBXGroup;
 			children = (
-				07F361711B0E0E3D003657AB /* Quick.xcodeproj */,
-				07F361861B0E0E42003657AB /* Nimble.xcodeproj */,
 				07E7BC111B012C93009A8A4E /* TipCalculator */,
 				07E7BC271B012C93009A8A4E /* TipCalculatorSpec */,
 				07E7BC391B012CBC009A8A4E /* TipCalculator WatchKit Extension */,
 				07E7BC491B012CBC009A8A4E /* TipCalculator WatchKit App */,
 				07E7BC101B012C93009A8A4E /* Products */,
+				87263E8BB0B23EC49A31C528 /* Pods */,
+				1DB48B744C2D87F541598445 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -334,28 +259,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		07F361721B0E0E3D003657AB /* Products */ = {
+		1DB48B744C2D87F541598445 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				07F3617B1B0E0E3D003657AB /* Quick.framework */,
-				07F3617D1B0E0E3D003657AB /* Quick-OSXTests.xctest */,
-				07F3617F1B0E0E3D003657AB /* QuickFocused-OSXTests.xctest */,
-				07F361811B0E0E3D003657AB /* Quick.framework */,
-				07F361831B0E0E3D003657AB /* Quick-iOSTests.xctest */,
-				07F361851B0E0E3D003657AB /* QuickFocused-iOSTests.xctest */,
+				5F8BBB2A99E4B50FF5BB3F91 /* Pods_TipCalculatorSpec.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		07F361871B0E0E42003657AB /* Products */ = {
+		87263E8BB0B23EC49A31C528 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				07F3618E1B0E0E42003657AB /* Nimble.framework */,
-				07F361901B0E0E42003657AB /* NimbleTests.xctest */,
-				07F361921B0E0E42003657AB /* Nimble.framework */,
-				07F361941B0E0E42003657AB /* NimbleTests.xctest */,
+				DE7F30248C4532F768EE334C /* Pods-TipCalculatorSpec.debug.xcconfig */,
+				65D0F3CDD8C52247A020C632 /* Pods-TipCalculatorSpec.release.xcconfig */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,10 +302,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07E7BC311B012C93009A8A4E /* Build configuration list for PBXNativeTarget "TipCalculatorSpec" */;
 			buildPhases = (
+				E6B1456E0AC9726132E77439 /* Check Pods Manifest.lock */,
 				07E7BC201B012C93009A8A4E /* Sources */,
 				07E7BC211B012C93009A8A4E /* Frameworks */,
 				07E7BC221B012C93009A8A4E /* Resources */,
 				0772B2E21B154A8000BC5920 /* CopyFiles */,
+				E048546F917354C8A068B3F2 /* Embed Pods Frameworks */,
+				59AEE87A0A3F88722494D2EC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -439,6 +360,8 @@
 		07E7BC071B012C93009A8A4E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Eric Meyer";
 				TargetAttributes = {
@@ -468,16 +391,6 @@
 			mainGroup = 07E7BC061B012C93009A8A4E;
 			productRefGroup = 07E7BC101B012C93009A8A4E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 07F361871B0E0E42003657AB /* Products */;
-					ProjectRef = 07F361861B0E0E42003657AB /* Nimble.xcodeproj */;
-				},
-				{
-					ProductGroup = 07F361721B0E0E3D003657AB /* Products */;
-					ProjectRef = 07F361711B0E0E3D003657AB /* Quick.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				07E7BC0E1B012C93009A8A4E /* TipCalculator */,
@@ -487,79 +400,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		07F3617B1B0E0E3D003657AB /* Quick.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Quick.framework;
-			remoteRef = 07F3617A1B0E0E3D003657AB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		07F3617D1B0E0E3D003657AB /* Quick-OSXTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Quick-OSXTests.xctest";
-			remoteRef = 07F3617C1B0E0E3D003657AB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		07F3617F1B0E0E3D003657AB /* QuickFocused-OSXTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "QuickFocused-OSXTests.xctest";
-			remoteRef = 07F3617E1B0E0E3D003657AB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		07F361811B0E0E3D003657AB /* Quick.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Quick.framework;
-			remoteRef = 07F361801B0E0E3D003657AB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		07F361831B0E0E3D003657AB /* Quick-iOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Quick-iOSTests.xctest";
-			remoteRef = 07F361821B0E0E3D003657AB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		07F361851B0E0E3D003657AB /* QuickFocused-iOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "QuickFocused-iOSTests.xctest";
-			remoteRef = 07F361841B0E0E3D003657AB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		07F3618E1B0E0E42003657AB /* Nimble.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Nimble.framework;
-			remoteRef = 07F3618D1B0E0E42003657AB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		07F361901B0E0E42003657AB /* NimbleTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NimbleTests.xctest;
-			remoteRef = 07F3618F1B0E0E42003657AB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		07F361921B0E0E42003657AB /* Nimble.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Nimble.framework;
-			remoteRef = 07F361911B0E0E42003657AB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		07F361941B0E0E42003657AB /* NimbleTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NimbleTests.xctest;
-			remoteRef = 07F361931B0E0E42003657AB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		07E7BC0D1B012C93009A8A4E /* Resources */ = {
@@ -598,6 +438,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59AEE87A0A3F88722494D2EC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipCalculatorSpec/Pods-TipCalculatorSpec-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E048546F917354C8A068B3F2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TipCalculatorSpec/Pods-TipCalculatorSpec-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6B1456E0AC9726132E77439 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07E7BC0B1B012C93009A8A4E /* Sources */ = {
@@ -793,6 +681,7 @@
 		};
 		07E7BC321B012C93009A8A4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7F30248C4532F768EE334C /* Pods-TipCalculatorSpec.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -812,6 +701,7 @@
 		};
 		07E7BC331B012C93009A8A4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D0F3CDD8C52247A020C632 /* Pods-TipCalculatorSpec.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
