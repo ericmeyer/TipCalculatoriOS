@@ -144,11 +144,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07D16B0E1B0175E7008F5886 /* Watch */ = {
+		076EE6B51C713A47006A9B38 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0779B2DC1B1169F900D42E41 /* Bill.swift */,
+				2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */,
+				07F361991B0E1499003657AB /* Numpad.swift */,
 			);
-			name = Watch;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		076EE6B61C713AB6006A9B38 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				07E7BC141B012C93009A8A4E /* AppDelegate.swift */,
+				07E7BC181B012C93009A8A4E /* Main.storyboard */,
+				07E7BC161B012C93009A8A4E /* ViewController.swift */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		076EE6B71C713ADB006A9B38 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0779B2E01B116A6400D42E41 /* BillSpec.swift */,
+				2FA2821D1F175EEBF81266E6 /* CurrencyFormatterSpec.swift */,
+				07F361971B0E1468003657AB /* NumpadSpec.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		07E7BC061B012C93009A8A4E = {
@@ -178,15 +201,9 @@
 		07E7BC111B012C93009A8A4E /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				07E7BC141B012C93009A8A4E /* AppDelegate.swift */,
-				07E7BC161B012C93009A8A4E /* ViewController.swift */,
-				07E7BC181B012C93009A8A4E /* Main.storyboard */,
-				07E7BC1B1B012C93009A8A4E /* Images.xcassets */,
-				07E7BC1D1B012C93009A8A4E /* LaunchScreen.xib */,
+				076EE6B51C713A47006A9B38 /* Core */,
+				076EE6B61C713AB6006A9B38 /* iOS */,
 				07E7BC121B012C93009A8A4E /* Supporting Files */,
-				07F361991B0E1499003657AB /* Numpad.swift */,
-				0779B2DC1B1169F900D42E41 /* Bill.swift */,
-				2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -194,6 +211,8 @@
 		07E7BC121B012C93009A8A4E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				07E7BC1B1B012C93009A8A4E /* Images.xcassets */,
+				07E7BC1D1B012C93009A8A4E /* LaunchScreen.xib */,
 				07E7BC131B012C93009A8A4E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -202,11 +221,8 @@
 		07E7BC271B012C93009A8A4E /* TipCalculatorSpec */ = {
 			isa = PBXGroup;
 			children = (
-				07D16B0E1B0175E7008F5886 /* Watch */,
+				076EE6B71C713ADB006A9B38 /* Core */,
 				07E7BC281B012C93009A8A4E /* Supporting Files */,
-				07F361971B0E1468003657AB /* NumpadSpec.swift */,
-				0779B2E01B116A6400D42E41 /* BillSpec.swift */,
-				2FA2821D1F175EEBF81266E6 /* CurrencyFormatterSpec.swift */,
 			);
 			name = TipCalculatorSpec;
 			path = TipCalculatorTests;
