@@ -90,7 +90,7 @@
 		0779B2DC1B1169F900D42E41 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		0779B2E01B116A6400D42E41 /* BillSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillSpec.swift; sourceTree = "<group>"; };
 		07A1CAD51B0D035400B2960E /* EnterBillController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterBillController.swift; sourceTree = "<group>"; };
-		07E7BC0F1B012C93009A8A4E /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07E7BC0F1B012C93009A8A4E /* TipCalculatoriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculatoriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E7BC131B012C93009A8A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07E7BC141B012C93009A8A4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07E7BC161B012C93009A8A4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -190,7 +190,7 @@
 		07E7BC101B012C93009A8A4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07E7BC0F1B012C93009A8A4E /* TipCalculator.app */,
+				07E7BC0F1B012C93009A8A4E /* TipCalculatoriOS.app */,
 				07E7BC241B012C93009A8A4E /* TipCalculatorSpec.xctest */,
 				07E7BC381B012CBC009A8A4E /* TipCalculator WatchKit Extension.appex */,
 				07E7BC451B012CBC009A8A4E /* TipCalculator WatchKit App.app */,
@@ -295,9 +295,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		07E7BC0E1B012C93009A8A4E /* TipCalculator */ = {
+		07E7BC0E1B012C93009A8A4E /* TipCalculatoriOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07E7BC2E1B012C93009A8A4E /* Build configuration list for PBXNativeTarget "TipCalculator" */;
+			buildConfigurationList = 07E7BC2E1B012C93009A8A4E /* Build configuration list for PBXNativeTarget "TipCalculatoriOS" */;
 			buildPhases = (
 				07E7BC0B1B012C93009A8A4E /* Sources */,
 				07E7BC0C1B012C93009A8A4E /* Frameworks */,
@@ -309,9 +309,9 @@
 			dependencies = (
 				07E7BC521B012CBC009A8A4E /* PBXTargetDependency */,
 			);
-			name = TipCalculator;
+			name = TipCalculatoriOS;
 			productName = TipCalculator;
-			productReference = 07E7BC0F1B012C93009A8A4E /* TipCalculator.app */;
+			productReference = 07E7BC0F1B012C93009A8A4E /* TipCalculatoriOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		07E7BC231B012C93009A8A4E /* TipCalculatorSpec */ = {
@@ -409,7 +409,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07E7BC0E1B012C93009A8A4E /* TipCalculator */,
+				07E7BC0E1B012C93009A8A4E /* TipCalculatoriOS */,
 				07E7BC231B012C93009A8A4E /* TipCalculatorSpec */,
 				07E7BC371B012CBC009A8A4E /* TipCalculator WatchKit Extension */,
 				07E7BC441B012CBC009A8A4E /* TipCalculator WatchKit App */,
@@ -544,12 +544,12 @@
 /* Begin PBXTargetDependency section */
 		073C394E1B0B797C00F5293B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 07E7BC0E1B012C93009A8A4E /* TipCalculator */;
+			target = 07E7BC0E1B012C93009A8A4E /* TipCalculatoriOS */;
 			targetProxy = 073C394D1B0B797C00F5293B /* PBXContainerItemProxy */;
 		};
 		07E7BC261B012C93009A8A4E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 07E7BC0E1B012C93009A8A4E /* TipCalculator */;
+			target = 07E7BC0E1B012C93009A8A4E /* TipCalculatoriOS */;
 			targetProxy = 07E7BC251B012C93009A8A4E /* PBXContainerItemProxy */;
 		};
 		07E7BC481B012CBC009A8A4E /* PBXTargetDependency */ = {
@@ -681,6 +681,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmeyer.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -691,6 +692,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmeyer.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -799,7 +801,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07E7BC2E1B012C93009A8A4E /* Build configuration list for PBXNativeTarget "TipCalculator" */ = {
+		07E7BC2E1B012C93009A8A4E /* Build configuration list for PBXNativeTarget "TipCalculatoriOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07E7BC2F1B012C93009A8A4E /* Debug */,
