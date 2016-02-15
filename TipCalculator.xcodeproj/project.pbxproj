@@ -192,7 +192,7 @@
 		07E7BC061B012C93009A8A4E = {
 			isa = PBXGroup;
 			children = (
-				07E7BC111B012C93009A8A4E /* TipCalculator */,
+				07E7BC111B012C93009A8A4E /* TipCalculatoriOS */,
 				07D12B581C7150A8002BACF1 /* TipCalculatoriOSSpecs */,
 				07E7BC391B012CBC009A8A4E /* TipCalculator WatchKit Extension */,
 				07E7BC491B012CBC009A8A4E /* TipCalculator WatchKit App */,
@@ -213,13 +213,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		07E7BC111B012C93009A8A4E /* TipCalculator */ = {
+		07E7BC111B012C93009A8A4E /* TipCalculatoriOS */ = {
 			isa = PBXGroup;
 			children = (
 				076EE6B51C713A47006A9B38 /* Core */,
 				076EE6B61C713AB6006A9B38 /* iOS */,
 				07E7BC121B012C93009A8A4E /* Supporting Files */,
 			);
+			name = TipCalculatoriOS;
 			path = TipCalculator;
 			sourceTree = "<group>";
 		};
