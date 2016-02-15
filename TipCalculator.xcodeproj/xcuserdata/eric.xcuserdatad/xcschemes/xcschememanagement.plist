@@ -9,12 +9,24 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>4</integer>
 		</dict>
 		<key>TipCalculator WatchKit App.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>TipCalculator.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>TipCalculatorTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>TipCalculatoriOS.xcscheme_^#shared#^_</key>
 		<dict>
@@ -24,6 +36,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>0740A9B41C71FCD8006E8E31</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0740A9BD1C71FCD9006E8E31</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>07D12B561C7150A8002BACF1</key>
 		<dict>
 			<key>primary</key>
