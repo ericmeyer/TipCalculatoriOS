@@ -331,8 +331,7 @@
 				076EE6B61C713AB6006A9B38 /* iOS */,
 				07E7BC121B012C93009A8A4E /* Supporting Files */,
 			);
-			name = TipCalculatoriOS;
-			path = TipCalculator;
+			path = TipCalculatoriOS;
 			sourceTree = "<group>";
 		};
 		07E7BC121B012C93009A8A4E /* Supporting Files */ = {
