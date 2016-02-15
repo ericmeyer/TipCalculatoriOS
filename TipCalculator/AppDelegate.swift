@@ -1,13 +1,4 @@
-//
-//  AppDelegate.swift
-//  TipCalculator
-//
-//  Created by Eric Meyer on 5/11/15.
-//  Copyright (c) 2015 Eric Meyer. All rights reserved.
-//
-
 import UIKit
-import TipCalculator
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,9 +8,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        let foo = Foo()
-        foo.bar()
-
         return true
     }
 
