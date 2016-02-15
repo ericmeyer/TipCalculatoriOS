@@ -38,6 +38,16 @@
                ReferencedContainer = "container:TipCalculator.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "07D12B561C7150A8002BACF1"
+               BuildableName = "TipCalculatoriOSSpecs.xctest"
+               BlueprintName = "TipCalculatoriOSSpecs"
+               ReferencedContainer = "container:TipCalculator.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

@@ -1,4 +1,4 @@
-import TipCalculator
+import TipCalculatoriOS
 import Nimble
 import Quick
 

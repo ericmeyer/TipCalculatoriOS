@@ -84,10 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-TipCalculatorSpec/Nimble.framework"
-  install_framework "Pods-TipCalculatorSpec/Quick.framework"
+  install_framework "Pods-TipCalculatoriOSSpecs/Nimble.framework"
+  install_framework "Pods-TipCalculatoriOSSpecs/Quick.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-TipCalculatorSpec/Nimble.framework"
-  install_framework "Pods-TipCalculatorSpec/Quick.framework"
+  install_framework "Pods-TipCalculatoriOSSpecs/Nimble.framework"
+  install_framework "Pods-TipCalculatoriOSSpecs/Quick.framework"
 fi
