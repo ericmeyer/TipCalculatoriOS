@@ -825,7 +825,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericmeyer.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SUPPORTED_PLATFORMS = "iphonesimulator watchsimulator watchos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -849,7 +849,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericmeyer.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SUPPORTED_PLATFORMS = "iphonesimulator watchsimulator watchos";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
