@@ -1,5 +1,7 @@
 import WatchKit
 import Foundation
+import TipCalculator
+
 
 class EnterBillInterfaceController: WKInterfaceController {
 
@@ -10,6 +12,8 @@ class EnterBillInterfaceController: WKInterfaceController {
 
     override func willActivate() {
         super.willActivate()
+        let foo = Foo()
+        foo.bar()
         clear()
     }
 

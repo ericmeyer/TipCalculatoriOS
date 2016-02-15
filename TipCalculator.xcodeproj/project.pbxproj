@@ -11,7 +11,7 @@
 		0740A9BF1C71FCD9006E8E31 /* TipCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0740A9B51C71FCD8006E8E31 /* TipCalculator.framework */; };
 		0740A9C41C71FCD9006E8E31 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0740A9C31C71FCD9006E8E31 /* TipCalculatorTests.swift */; };
 		0779B2DD1B1169F900D42E41 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2DC1B1169F900D42E41 /* Bill.swift */; };
-		07AF6A7F1C722FD200C39865 /* TipCalculator.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0740A9B51C71FCD8006E8E31 /* TipCalculator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07AF6A7F1C722FD200C39865 /* TipCalculator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0740A9B51C71FCD8006E8E31 /* TipCalculator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		07C07CA81C720018002BE400 /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C07CA71C720018002BE400 /* Foo.swift */; };
 		07C07CAB1C7202EB002BE400 /* FooSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C07CA91C7202E7002BE400 /* FooSpec.swift */; };
 		07D12B611C7150B5002BACF1 /* BillSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2E01B116A6400D42E41 /* BillSpec.swift */; };
@@ -79,14 +79,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		07AF6A7E1C722FC500C39865 /* CopyFiles */ = {
+		07AF6A7E1C722FC500C39865 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				07AF6A7F1C722FD200C39865 /* TipCalculator.framework in CopyFiles */,
+				07AF6A7F1C722FD200C39865 /* TipCalculator.framework in Embed Frameworks */,
 			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		07D12B6B1C715181002BACF1 /* Embed Watch Content */ = {
@@ -465,7 +466,7 @@
 				07DC2CD31C72189900EA80D1 /* Sources */,
 				07DC2CD41C72189900EA80D1 /* Frameworks */,
 				07DC2CD51C72189900EA80D1 /* Resources */,
-				07AF6A7E1C722FC500C39865 /* CopyFiles */,
+				07AF6A7E1C722FC500C39865 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
