@@ -14,6 +14,8 @@
 		0779B2DF1B116A1B00D42E41 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2DC1B1169F900D42E41 /* Bill.swift */; };
 		07821FB11B0EB29E00E6144B /* Numpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F361991B0E1499003657AB /* Numpad.swift */; };
 		07A1CAD61B0D035400B2960E /* EnterBillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A1CAD51B0D035400B2960E /* EnterBillController.swift */; };
+		07C07CA81C720018002BE400 /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C07CA71C720018002BE400 /* Foo.swift */; };
+		07C07CAB1C7202EB002BE400 /* FooSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C07CA91C7202E7002BE400 /* FooSpec.swift */; };
 		07D12B611C7150B5002BACF1 /* BillSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2E01B116A6400D42E41 /* BillSpec.swift */; };
 		07D12B621C7150C5002BACF1 /* CurrencyFormatterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA2821D1F175EEBF81266E6 /* CurrencyFormatterSpec.swift */; };
 		07D12B631C7150D2002BACF1 /* NumpadSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F361971B0E1468003657AB /* NumpadSpec.swift */; };
@@ -44,6 +46,13 @@
 			remoteInfo = TipCalculator;
 		};
 		0740A9C01C71FCD9006E8E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07E7BC071B012C93009A8A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0740A9B41C71FCD8006E8E31;
+			remoteInfo = TipCalculator;
+		};
+		07C07CA51C72000B002BE400 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 07E7BC071B012C93009A8A4E /* Project object */;
 			proxyType = 1;
@@ -108,6 +117,8 @@
 		0779B2DC1B1169F900D42E41 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		0779B2E01B116A6400D42E41 /* BillSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BillSpec.swift; path = ../TipCalculatorTests/BillSpec.swift; sourceTree = "<group>"; };
 		07A1CAD51B0D035400B2960E /* EnterBillController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterBillController.swift; sourceTree = "<group>"; };
+		07C07CA71C720018002BE400 /* Foo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
+		07C07CA91C7202E7002BE400 /* FooSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooSpec.swift; sourceTree = "<group>"; };
 		07D12B571C7150A8002BACF1 /* TipCalculatoriOSSpecs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatoriOSSpecs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D12B5B1C7150A8002BACF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07E7BC0F1B012C93009A8A4E /* TipCalculatoriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculatoriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -185,6 +196,7 @@
 			children = (
 				0740A9B71C71FCD9006E8E31 /* TipCalculator.h */,
 				0740A9B91C71FCD9006E8E31 /* Info.plist */,
+				07C07CA71C720018002BE400 /* Foo.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -194,6 +206,7 @@
 			children = (
 				0740A9C31C71FCD9006E8E31 /* TipCalculatorTests.swift */,
 				0740A9C51C71FCD9006E8E31 /* Info.plist */,
+				07C07CA91C7202E7002BE400 /* FooSpec.swift */,
 			);
 			name = TipCalculatorSpecs;
 			path = TipCalculatorTests;
@@ -430,6 +443,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				07C07CA61C72000B002BE400 /* PBXTargetDependency */,
 				07D12B681C715180002BACF1 /* PBXTargetDependency */,
 			);
 			name = TipCalculatoriOS;
@@ -631,6 +645,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C07CA81C720018002BE400 /* Foo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +654,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0740A9C41C71FCD9006E8E31 /* TipCalculatorTests.swift in Sources */,
+				07C07CAB1C7202EB002BE400 /* FooSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,6 +706,11 @@
 			target = 0740A9B41C71FCD8006E8E31 /* TipCalculator */;
 			targetProxy = 0740A9C01C71FCD9006E8E31 /* PBXContainerItemProxy */;
 		};
+		07C07CA61C72000B002BE400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0740A9B41C71FCD8006E8E31 /* TipCalculator */;
+			targetProxy = 07C07CA51C72000B002BE400 /* PBXContainerItemProxy */;
+		};
 		07D12B5D1C7150A8002BACF1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 07E7BC0E1B012C93009A8A4E /* TipCalculatoriOS */;
@@ -738,6 +759,7 @@
 		0740A9C61C71FCD9006E8E31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -746,11 +768,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TipCalculator/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericmeyer.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -759,6 +782,7 @@
 		0740A9C71C71FCD9006E8E31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -766,7 +790,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = TipCalculator/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericmeyer.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1013,6 +1037,7 @@
 				0740A9C71C71FCD9006E8E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0740A9CB1C71FCD9006E8E31 /* Build configuration list for PBXNativeTarget "TipCalculatorSpecs" */ = {
 			isa = XCConfigurationList;
@@ -1021,6 +1046,7 @@
 				0740A9C91C71FCD9006E8E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07D12B5E1C7150A8002BACF1 /* Build configuration list for PBXNativeTarget "TipCalculatoriOSSpecs" */ = {
 			isa = XCConfigurationList;
