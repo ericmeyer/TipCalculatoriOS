@@ -14,6 +14,8 @@
 		07D12B611C7150B5002BACF1 /* BillSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2E01B116A6400D42E41 /* BillSpec.swift */; };
 		07D12B621C7150C5002BACF1 /* CurrencyFormatterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA2821D1F175EEBF81266E6 /* CurrencyFormatterSpec.swift */; };
 		07D12B631C7150D2002BACF1 /* NumpadSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F361971B0E1468003657AB /* NumpadSpec.swift */; };
+		07D12B661C715180002BACF1 /* TipCalculator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 07E7BC381B012CBC009A8A4E /* TipCalculator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		07D12B691C715180002BACF1 /* TipCalculator WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 07E7BC451B012CBC009A8A4E /* TipCalculator WatchKit App.app */; };
 		07E7BC151B012C93009A8A4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7BC141B012C93009A8A4E /* AppDelegate.swift */; };
 		07E7BC171B012C93009A8A4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7BC161B012C93009A8A4E /* ViewController.swift */; };
 		07E7BC1A1B012C93009A8A4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E7BC181B012C93009A8A4E /* Main.storyboard */; };
@@ -22,10 +24,8 @@
 		07E7BC3E1B012CBC009A8A4E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7BC3D1B012CBC009A8A4E /* InterfaceController.swift */; };
 		07E7BC401B012CBC009A8A4E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7BC3F1B012CBC009A8A4E /* NotificationController.swift */; };
 		07E7BC421B012CBC009A8A4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E7BC411B012CBC009A8A4E /* Images.xcassets */; };
-		07E7BC461B012CBC009A8A4E /* TipCalculator WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 07E7BC451B012CBC009A8A4E /* TipCalculator WatchKit App.app */; };
 		07E7BC4E1B012CBC009A8A4E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E7BC4C1B012CBC009A8A4E /* Interface.storyboard */; };
 		07E7BC501B012CBC009A8A4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E7BC4F1B012CBC009A8A4E /* Images.xcassets */; };
-		07E7BC531B012CBC009A8A4E /* TipCalculator WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 07E7BC381B012CBC009A8A4E /* TipCalculator WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		07F3619A1B0E1499003657AB /* Numpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F361991B0E1499003657AB /* Numpad.swift */; };
 		1C133A265F7749AB3D025C8A /* Pods_TipCalculatoriOSSpecs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3FEFF0068647522493507C /* Pods_TipCalculatoriOSSpecs.framework */; };
 		2FA28083382EB0C6B29199B7 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */; };
@@ -47,32 +47,43 @@
 			remoteGlobalIDString = 07E7BC0E1B012C93009A8A4E;
 			remoteInfo = TipCalculatoriOS;
 		};
-		07E7BC471B012CBC009A8A4E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 07E7BC071B012C93009A8A4E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 07E7BC441B012CBC009A8A4E;
-			remoteInfo = "TipCalculator WatchKit App";
-		};
-		07E7BC511B012CBC009A8A4E /* PBXContainerItemProxy */ = {
+		07D12B641C715180002BACF1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 07E7BC071B012C93009A8A4E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 07E7BC371B012CBC009A8A4E;
 			remoteInfo = "TipCalculator WatchKit Extension";
 		};
+		07D12B671C715180002BACF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07E7BC071B012C93009A8A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E7BC441B012CBC009A8A4E;
+			remoteInfo = "TipCalculator WatchKit App";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		07E7BC5A1B012CBC009A8A4E /* Embed App Extensions */ = {
+		07D12B6A1C715181002BACF1 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				07E7BC531B012CBC009A8A4E /* TipCalculator WatchKit Extension.appex in Embed App Extensions */,
+				07D12B661C715180002BACF1 /* TipCalculator WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D12B6B1C715181002BACF1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				07D12B691C715180002BACF1 /* TipCalculator WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -312,12 +323,12 @@
 				07E7BC0B1B012C93009A8A4E /* Sources */,
 				07E7BC0C1B012C93009A8A4E /* Frameworks */,
 				07E7BC0D1B012C93009A8A4E /* Resources */,
-				07E7BC5A1B012CBC009A8A4E /* Embed App Extensions */,
+				07D12B6B1C715181002BACF1 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				07E7BC521B012CBC009A8A4E /* PBXTargetDependency */,
+				07D12B681C715180002BACF1 /* PBXTargetDependency */,
 			);
 			name = TipCalculatoriOS;
 			productName = TipCalculator;
@@ -336,27 +347,28 @@
 			);
 			dependencies = (
 				073C394E1B0B797C00F5293B /* PBXTargetDependency */,
-				07E7BC481B012CBC009A8A4E /* PBXTargetDependency */,
 			);
 			name = "TipCalculator WatchKit Extension";
 			productName = "TipCalculator WatchKit Extension";
 			productReference = 07E7BC381B012CBC009A8A4E /* TipCalculator WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit-extension";
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 		07E7BC441B012CBC009A8A4E /* TipCalculator WatchKit App */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07E7BC541B012CBC009A8A4E /* Build configuration list for PBXNativeTarget "TipCalculator WatchKit App" */;
 			buildPhases = (
 				07E7BC431B012CBC009A8A4E /* Resources */,
+				07D12B6A1C715181002BACF1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				07D12B651C715180002BACF1 /* PBXTargetDependency */,
 			);
 			name = "TipCalculator WatchKit App";
 			productName = "TipCalculator WatchKit App";
 			productReference = 07E7BC451B012CBC009A8A4E /* TipCalculator WatchKit App.app */;
-			productType = "com.apple.product-type.application.watchapp";
+			productType = "com.apple.product-type.application.watchapp2";
 		};
 /* End PBXNativeTarget section */
 
@@ -366,7 +378,7 @@
 			attributes = {
 				LastSwiftMigration = 0720;
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Eric Meyer";
 				TargetAttributes = {
 					07D12B561C7150A8002BACF1 = {
@@ -427,7 +439,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07E7BC461B012CBC009A8A4E /* TipCalculator WatchKit App.app in Resources */,
 				07E7BC421B012CBC009A8A4E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,15 +551,15 @@
 			target = 07E7BC0E1B012C93009A8A4E /* TipCalculatoriOS */;
 			targetProxy = 07D12B5C1C7150A8002BACF1 /* PBXContainerItemProxy */;
 		};
-		07E7BC481B012CBC009A8A4E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 07E7BC441B012CBC009A8A4E /* TipCalculator WatchKit App */;
-			targetProxy = 07E7BC471B012CBC009A8A4E /* PBXContainerItemProxy */;
-		};
-		07E7BC521B012CBC009A8A4E /* PBXTargetDependency */ = {
+		07D12B651C715180002BACF1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 07E7BC371B012CBC009A8A4E /* TipCalculator WatchKit Extension */;
-			targetProxy = 07E7BC511B012CBC009A8A4E /* PBXContainerItemProxy */;
+			targetProxy = 07D12B641C715180002BACF1 /* PBXContainerItemProxy */;
+		};
+		07D12B681C715180002BACF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07E7BC441B012CBC009A8A4E /* TipCalculator WatchKit App */;
+			targetProxy = 07D12B671C715180002BACF1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -631,6 +642,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -719,17 +731,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				IBSC_MODULE = TipCalculator_WatchKit_Extension;
 				INFOPLIST_FILE = "TipCalculator WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmeyer.TipCalculator.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -737,13 +751,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = TipCalculator_WatchKit_Extension;
 				INFOPLIST_FILE = "TipCalculator WatchKit App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmeyer.TipCalculator.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -756,8 +772,12 @@
 				);
 				INFOPLIST_FILE = "TipCalculator WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmeyer.TipCalculator.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -766,8 +786,12 @@
 			buildSettings = {
 				INFOPLIST_FILE = "TipCalculator WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmeyer.TipCalculator.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
