@@ -122,7 +122,7 @@
 		0740A9B91C71FCD9006E8E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0740A9BE1C71FCD9006E8E31 /* TipCalculatorSpecs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorSpecs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0740A9C51C71FCD9006E8E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../TipCalculatorSpecs/Info.plist; sourceTree = "<group>"; };
-		0779B2DC1B1169F900D42E41 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bill.swift; path = TipCalculatoriOS/Bill.swift; sourceTree = SOURCE_ROOT; };
+		0779B2DC1B1169F900D42E41 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bill.swift; path = TipCalculator/Bill.swift; sourceTree = SOURCE_ROOT; };
 		07D12B571C7150A8002BACF1 /* TipCalculatoriOSSpecs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatoriOSSpecs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D12B5B1C7150A8002BACF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07DC2CCB1C72189900EA80D1 /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,9 +144,9 @@
 		07E7BC191B012C93009A8A4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07E7BC1B1B012C93009A8A4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		07E7BC1E1B012C93009A8A4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		07F361991B0E1499003657AB /* Numpad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Numpad.swift; path = TipCalculatoriOS/Numpad.swift; sourceTree = SOURCE_ROOT; };
+		07F361991B0E1499003657AB /* Numpad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Numpad.swift; path = TipCalculator/Numpad.swift; sourceTree = SOURCE_ROOT; };
 		2B2D59A65FC9DC2B8C75D7D0 /* Pods_TipCalculatorSpecs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipCalculatorSpecs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrencyFormatter.swift; path = TipCalculatoriOS/CurrencyFormatter.swift; sourceTree = SOURCE_ROOT; };
+		2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrencyFormatter.swift; path = TipCalculator/CurrencyFormatter.swift; sourceTree = SOURCE_ROOT; };
 		5A3FEFF0068647522493507C /* Pods_TipCalculatoriOSSpecs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipCalculatoriOSSpecs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8BBB2A99E4B50FF5BB3F91 /* Pods_TipCalculatorSpec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipCalculatorSpec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD4F929216A64D781A3B97C /* Pods-TipCalculatoriOSSpecs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipCalculatoriOSSpecs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipCalculatoriOSSpecs/Pods-TipCalculatoriOSSpecs.debug.xcconfig"; sourceTree = "<group>"; };
