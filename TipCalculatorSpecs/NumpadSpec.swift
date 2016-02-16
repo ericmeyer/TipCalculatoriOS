@@ -1,4 +1,4 @@
-import TipCalculatoriOS
+import TipCalculator
 import Quick
 import Nimble
 
@@ -78,10 +78,10 @@ class NumpadSpec: QuickSpec {
         it("works starting with a decimal") {
             numpad.pressDot()
             numpad.press(number: 5)
-
+            
             expect(numpad.value).to(equal(0.5))
             expect(numpad.display).to(equal(".5"))
         }
     }
-
+    
 }

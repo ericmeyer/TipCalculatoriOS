@@ -12,8 +12,6 @@ class EnterBillInterfaceController: WKInterfaceController {
 
     override func willActivate() {
         super.willActivate()
-        let foo = Foo()
-        foo.bar()
         clear()
     }
 

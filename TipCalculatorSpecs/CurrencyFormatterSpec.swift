@@ -1,4 +1,4 @@
-import TipCalculatoriOS
+import TipCalculator
 import Nimble
 import Quick
 
@@ -41,5 +41,5 @@ class CurrencyFormatterSpec: QuickSpec {
             expect(self.format(0.4449)).to(equal("$0.44"))
         }
     }
-
+    
 }
