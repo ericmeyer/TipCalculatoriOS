@@ -121,7 +121,7 @@
 		0740A9B71C71FCD9006E8E31 /* TipCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipCalculator.h; sourceTree = "<group>"; };
 		0740A9B91C71FCD9006E8E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0740A9BE1C71FCD9006E8E31 /* TipCalculatorSpecs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorSpecs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0740A9C51C71FCD9006E8E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../TipCalculatorSpecs/Info.plist; sourceTree = "<group>"; };
+		0740A9C51C71FCD9006E8E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = TipCalculatorSpecs/Info.plist; sourceTree = "<group>"; };
 		0779B2DC1B1169F900D42E41 /* Bill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bill.swift; path = TipCalculator/Bill.swift; sourceTree = SOURCE_ROOT; };
 		07D12B571C7150A8002BACF1 /* TipCalculatoriOSSpecs.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatoriOSSpecs.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07D12B5B1C7150A8002BACF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -817,7 +817,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericmeyer.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator watchsimulator watchos";
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -841,7 +841,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericmeyer.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator watchsimulator watchos";
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
