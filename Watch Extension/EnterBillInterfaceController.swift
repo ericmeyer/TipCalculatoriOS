@@ -22,6 +22,7 @@ class EnterBillInterfaceController: WKInterfaceController {
     }
 
     @IBAction func clear() {
+        numpad.clear()
         updateDisplay()
     }
 

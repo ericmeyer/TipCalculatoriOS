@@ -12,6 +12,11 @@
                     <items>
                         <group width="1" height="0.25" alignment="left" id="XcP-aV-Yom">
                             <items>
+                                <button alignment="left" verticalAlignment="center" title="X" id="Cd2-tD-d5Q">
+                                    <connections>
+                                        <action selector="clear" destination="72l-4Q-nLv" id="TvV-xe-1aT"/>
+                                    </connections>
+                                </button>
                                 <label alignment="center" verticalAlignment="center" text="$123.45" id="0eH-Dz-6VG"/>
                                 <button alignment="right" title="-&gt;" id="502-DR-SxB">
                                     <connections>
