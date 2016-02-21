@@ -39,6 +39,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		073B72AC1C7A18FE0049950A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07E7BC071B012C93009A8A4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0740A9B41C71FCD8006E8E31;
+			remoteInfo = TipCalculator;
+		};
 		0740A9C01C71FCD9006E8E31 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 07E7BC071B012C93009A8A4E /* Project object */;
@@ -464,6 +471,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				073B72AD1C7A18FE0049950A /* PBXTargetDependency */,
 			);
 			name = "Watch Extension";
 			productName = "Watch Extension";
@@ -744,6 +752,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		073B72AD1C7A18FE0049950A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0740A9B41C71FCD8006E8E31 /* TipCalculator */;
+			targetProxy = 073B72AC1C7A18FE0049950A /* PBXContainerItemProxy */;
+		};
 		0740A9C11C71FCD9006E8E31 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0740A9B41C71FCD8006E8E31 /* TipCalculator */;
@@ -817,7 +830,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericmeyer.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -841,7 +854,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ericmeyer.TipCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
