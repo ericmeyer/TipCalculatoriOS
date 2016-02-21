@@ -32,16 +32,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "07E7BC231B012C93009A8A4E"
-               BuildableName = "TipCalculatorSpec.xctest"
-               BlueprintName = "TipCalculatorSpec"
-               ReferencedContainer = "container:TipCalculator.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "07D12B561C7150A8002BACF1"
                BuildableName = "TipCalculatoriOSSpecs.xctest"
                BlueprintName = "TipCalculatoriOSSpecs"
