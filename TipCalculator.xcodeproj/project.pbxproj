@@ -14,6 +14,8 @@
 		07176CE41C72CF28001FDC8F /* BillSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07176CE31C72CF28001FDC8F /* BillSpec.swift */; };
 		07176CE51C72CF3F001FDC8F /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2DC1B1169F900D42E41 /* Bill.swift */; };
 		07176CE71C72CF8E001FDC8F /* ViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07176CE61C72CF8E001FDC8F /* ViewControllerSpec.swift */; };
+		0733EA261C80E7B00045F1CA /* TipCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0740A9B51C71FCD8006E8E31 /* TipCalculator.framework */; };
+		0733EA271C80E8470045F1CA /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */; };
 		0740A9B81C71FCD9006E8E31 /* TipCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0740A9B71C71FCD9006E8E31 /* TipCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0740A9BF1C71FCD9006E8E31 /* TipCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0740A9B51C71FCD8006E8E31 /* TipCalculator.framework */; };
 		07AF6A7F1C722FD200C39865 /* TipCalculator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0740A9B51C71FCD8006E8E31 /* TipCalculator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -193,6 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0733EA261C80E7B00045F1CA /* TipCalculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,6 +740,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07E7BC171B012C93009A8A4E /* ViewController.swift in Sources */,
+				0733EA271C80E8470045F1CA /* CurrencyFormatter.swift in Sources */,
 				07E7BC151B012C93009A8A4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
