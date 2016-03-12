@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		07176CDE1C72CE18001FDC8F /* CurrencyFormatterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07176CDD1C72CE18001FDC8F /* CurrencyFormatterSpec.swift */; };
-		07176CDF1C72CE56001FDC8F /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */; };
 		07176CE11C72CEBF001FDC8F /* NumpadSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07176CE01C72CEBF001FDC8F /* NumpadSpec.swift */; };
 		07176CE21C72CEDB001FDC8F /* Numpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F361991B0E1499003657AB /* Numpad.swift */; };
 		07176CE41C72CF28001FDC8F /* BillSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07176CE31C72CF28001FDC8F /* BillSpec.swift */; };
@@ -18,7 +17,11 @@
 		0733EA271C80E8470045F1CA /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */; };
 		0740A9B81C71FCD9006E8E31 /* TipCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0740A9B71C71FCD9006E8E31 /* TipCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0740A9BF1C71FCD9006E8E31 /* TipCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0740A9B51C71FCD8006E8E31 /* TipCalculator.framework */; };
+		0798323D1C9484F300F5F270 /* Numpad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F361991B0E1499003657AB /* Numpad.swift */; };
+		0798323E1C94862500F5F270 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0779B2DC1B1169F900D42E41 /* Bill.swift */; };
 		07AF6A7F1C722FD200C39865 /* TipCalculator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0740A9B51C71FCD8006E8E31 /* TipCalculator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07BC31061C947EDD007DD032 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */; };
+		07BC31071C947EDF007DD032 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */; };
 		07DC2CCF1C72189900EA80D1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DC2CCD1C72189900EA80D1 /* Interface.storyboard */; };
 		07DC2CD11C72189900EA80D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DC2CD01C72189900EA80D1 /* Assets.xcassets */; };
 		07DC2CD81C72189900EA80D1 /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 07DC2CD71C72189900EA80D1 /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -38,6 +41,7 @@
 		07E7BC1F1B012C93009A8A4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07E7BC1D1B012C93009A8A4E /* LaunchScreen.xib */; };
 		1C133A265F7749AB3D025C8A /* Pods_TipCalculatoriOSSpecs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3FEFF0068647522493507C /* Pods_TipCalculatoriOSSpecs.framework */; };
 		239A220A3A30790B2E8453AC /* Pods_TipCalculatorSpecs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2D59A65FC9DC2B8C75D7D0 /* Pods_TipCalculatorSpecs.framework */; };
+		8450CCF01C7BBCDB00305C7F /* InitialInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8450CCEE1C7BBBC100305C7F /* InitialInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,6 +157,7 @@
 		5F8BBB2A99E4B50FF5BB3F91 /* Pods_TipCalculatorSpec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipCalculatorSpec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD4F929216A64D781A3B97C /* Pods-TipCalculatoriOSSpecs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipCalculatoriOSSpecs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipCalculatoriOSSpecs/Pods-TipCalculatoriOSSpecs.debug.xcconfig"; sourceTree = "<group>"; };
 		65D0F3CDD8C52247A020C632 /* Pods-TipCalculatorSpec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipCalculatorSpec.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipCalculatorSpec/Pods-TipCalculatorSpec.release.xcconfig"; sourceTree = "<group>"; };
+		8450CCEE1C7BBBC100305C7F /* InitialInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InitialInterfaceController.swift; path = ../Watch/InitialInterfaceController.swift; sourceTree = "<group>"; };
 		D8299B5A95AAD0FD1E4338F3 /* Pods-TipCalculatoriOSSpecs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipCalculatoriOSSpecs.release.xcconfig"; path = "Pods/Target Support Files/Pods-TipCalculatoriOSSpecs/Pods-TipCalculatoriOSSpecs.release.xcconfig"; sourceTree = "<group>"; };
 		DE7F30248C4532F768EE334C /* Pods-TipCalculatorSpec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipCalculatorSpec.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipCalculatorSpec/Pods-TipCalculatorSpec.debug.xcconfig"; sourceTree = "<group>"; };
 		DF653719FFBCEE3F21D80641 /* Pods-TipCalculatorSpecs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipCalculatorSpecs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TipCalculatorSpecs/Pods-TipCalculatorSpecs.debug.xcconfig"; sourceTree = "<group>"; };
@@ -205,8 +210,8 @@
 		0740A9B61C71FCD9006E8E31 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				0779B2DC1B1169F900D42E41 /* Bill.swift */,
 				2FA28BE3E160AB2C64DCFF81 /* CurrencyFormatter.swift */,
+				0779B2DC1B1169F900D42E41 /* Bill.swift */,
 				07F361991B0E1499003657AB /* Numpad.swift */,
 				0740A9B71C71FCD9006E8E31 /* TipCalculator.h */,
 				0740A9B91C71FCD9006E8E31 /* Info.plist */,
@@ -274,13 +279,12 @@
 		07DC2CDB1C72189900EA80D1 /* Watch Extension */ = {
 			isa = PBXGroup;
 			children = (
-				07DC2D001C72217A00EA80D1 /* EnterBillInterfaceController.swift */,
+				843FA34A1C7A77A600F6D23B /* InterfaceController */,
 				07DC2CE01C72189900EA80D1 /* ExtensionDelegate.swift */,
 				07DC2CE21C72189900EA80D1 /* NotificationController.swift */,
 				07DC2CE41C72189900EA80D1 /* Assets.xcassets */,
 				07DC2CE61C72189900EA80D1 /* Info.plist */,
 				07DC2CDC1C72189900EA80D1 /* Supporting Files */,
-				07DC2D051C7225D900EA80D1 /* CalculateTotalInterfaceController.swift */,
 			);
 			path = "Watch Extension";
 			sourceTree = "<group>";
@@ -349,6 +353,16 @@
 				2B2D59A65FC9DC2B8C75D7D0 /* Pods_TipCalculatorSpecs.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		843FA34A1C7A77A600F6D23B /* InterfaceController */ = {
+			isa = PBXGroup;
+			children = (
+				8450CCEE1C7BBBC100305C7F /* InitialInterfaceController.swift */,
+				07DC2D001C72217A00EA80D1 /* EnterBillInterfaceController.swift */,
+				07DC2D051C7225D900EA80D1 /* CalculateTotalInterfaceController.swift */,
+			);
+			name = InterfaceController;
 			sourceTree = "<group>";
 		};
 		87263E8BB0B23EC49A31C528 /* Pods */ = {
@@ -698,8 +712,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				07176CE51C72CF3F001FDC8F /* Bill.swift in Sources */,
+				07BC31061C947EDD007DD032 /* CurrencyFormatter.swift in Sources */,
 				07176CE21C72CEDB001FDC8F /* Numpad.swift in Sources */,
-				07176CDF1C72CE56001FDC8F /* CurrencyFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,7 +722,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				07176CDE1C72CE18001FDC8F /* CurrencyFormatterSpec.swift in Sources */,
+				07BC31071C947EDF007DD032 /* CurrencyFormatter.swift in Sources */,
+				0798323D1C9484F300F5F270 /* Numpad.swift in Sources */,
 				07176CE41C72CF28001FDC8F /* BillSpec.swift in Sources */,
+				0798323E1C94862500F5F270 /* Bill.swift in Sources */,
 				07176CE11C72CEBF001FDC8F /* NumpadSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -725,6 +742,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8450CCF01C7BBCDB00305C7F /* InitialInterfaceController.swift in Sources */,
 				07DC2D021C72252900EA80D1 /* Bill.swift in Sources */,
 				07DC2D011C72217A00EA80D1 /* EnterBillInterfaceController.swift in Sources */,
 				07DC2D061C7225D900EA80D1 /* CalculateTotalInterfaceController.swift in Sources */,

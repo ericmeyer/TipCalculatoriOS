@@ -1,41 +1,45 @@
 import Foundation
 
-public class Numpad {
+final class Numpad {
 
-    public var value: Float {
+    private var enteredNumbers: String = ""
+    private var lastNumber: Int?
+
+    func press(digit digit: Int) {
+        guard enteredNumbers.characters.count < 8 else { return }
+
+        lastNumber = digit
+        if checkWhetherJoinPressedDigit() {
+            enteredNumbers.appendContentsOf("\(lastNumber!)")
+        }
+    }
+
+    func clear() {
+        enteredNumbers.removeAll()
+    }
+
+    var display: Float {
         get {
-            if display == "" {
+            return value / 100
+        }
+    }
+
+    private var value: Float {
+        get {
+            if enteredNumbers.isEmpty {
                 return 0
             } else {
-                return (display as NSString).floatValue
+                return (enteredNumbers as NSString).floatValue
             }
         }
     }
-    public var display: String {
-        get {
-            return chars.joinWithSeparator("")
-        }
-    }
-    public var chars: [String]
-
-    public init() {
-        chars = []
-    }
-
-    public func press(number number: Int) {
-        if !chars.isEmpty || number != 0 {
-            chars.append("\(number)")
-        }
-    }
-
-    public func pressDot() {
-        if !chars.contains(".") {
-            chars.append(".")
-        }
-    }
-
-    public func clear() {
-        chars = []
-    }
     
+    private func checkWhetherJoinPressedDigit() -> Bool {
+        if let lastNumber = lastNumber {
+            return (!enteredNumbers.isEmpty || (lastNumber != 0))
+        }
+        
+        return false
+    }
+
 }

@@ -1,30 +1,24 @@
 import Foundation
 
-public class Bill {
-
-    public var subtotal: Float = 0
-    public var tipPercentage: Float = 0
-    public var numberOfPeople: Int = 1
-
-    public init() {}
-
-    public func total() -> Float {
-        return subtotal + tip()
+struct Bill {
+    var subTotal: Float = 0.0
+    var tipPercentage: Float = 0.0
+    var numberOfPeople: Int = 1
+    var total: Float {
+        get {
+            return self.subTotal + self.tip
+        }
     }
-
-    public func tip() -> Float {
-        return Float(round(unroundedTip()*100) / 100)
+    
+    var tip: Float {
+        get {
+            let percentFromSubTotal = (self.subTotal * (self.tipPercentage / 100))
+            let preperToRound = percentFromSubTotal * 100
+            let numberOfRoundedCents = Int(preperToRound + 0.5)
+            let roundedTip =  Float(numberOfRoundedCents) / Float(100)
+            
+            return roundedTip
+        }
     }
-
-    public func totalPerPerson() -> Float {
-        return total() / Float(numberOfPeople)
-    }
-
-    public func tipPerPerson() -> Float {
-        return tip() / Float(numberOfPeople)
-    }
-
-    private func unroundedTip() -> Float {
-        return subtotal * (tipPercentage / 100)
-    }
+    
 }

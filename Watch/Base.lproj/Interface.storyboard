@@ -1,36 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="72l-4Q-nLv">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="SxY-aM-mI9">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
     </dependencies>
     <scenes>
-        <!--Enter Bill Interface Controller-->
+        <!--Initial Interface Controller-->
+        <scene sceneID="Lr8-6r-6sd">
+            <objects>
+                <controller id="SxY-aM-mI9" customClass="InitialInterfaceController" customModule="Watch_Extension">
+                    <items>
+                        <label width="136" alignment="center" verticalAlignment="center" text="InitialInterfaceController" textAlignment="center" id="IdC-UX-RaI"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-70" y="299"/>
+        </scene>
+        <!--Enter Bill-->
         <scene sceneID="fj7-CK-CBc">
             <objects>
-                <controller id="72l-4Q-nLv" customClass="EnterBillInterfaceController" customModule="Watch_Extension">
+                <controller identifier="Enter Bill" id="72l-4Q-nLv" customClass="EnterBillInterfaceController" customModule="Watch_Extension">
                     <items>
-                        <group width="1" height="0.25" alignment="left" id="XcP-aV-Yom">
-                            <items>
-                                <button alignment="left" verticalAlignment="center" title="X" id="Cd2-tD-d5Q">
-                                    <connections>
-                                        <action selector="clear" destination="72l-4Q-nLv" id="TvV-xe-1aT"/>
-                                    </connections>
-                                </button>
-                                <label alignment="center" verticalAlignment="center" text="$123.45" id="0eH-Dz-6VG"/>
-                                <button alignment="right" title="-&gt;" id="502-DR-SxB">
-                                    <connections>
-                                        <segue destination="IsZ-5R-3VC" kind="push" id="7b6-gL-SYw"/>
-                                    </connections>
-                                </button>
-                            </items>
-                        </group>
                         <group width="1" height="0.25" alignment="left" id="3TW-aO-6Bw">
                             <items>
                                 <button width="0.33000000000000002" alignment="left" title="7" id="ngJ-nQ-YWw">
                                     <fontDescription key="font" type="system" pointSize="15"/>
                                     <connections>
-                                        <action selector="pressSeven" destination="72l-4Q-nLv" id="nrE-na-sgf"/>
+                                        <action selector="pressSeven" destination="72l-4Q-nLv" id="skz-je-mDs"/>
                                     </connections>
                                 </button>
                                 <button width="0.33000000000000002" alignment="left" title="8" id="Fcd-1L-hZH">
@@ -47,7 +43,7 @@
                                 </button>
                             </items>
                         </group>
-                        <group width="1" height="0.25" alignment="left" id="WMH-XC-fjc">
+                        <group width="1" height="0.25" alignment="left" verticalAlignment="center" id="WMH-XC-fjc">
                             <items>
                                 <button width="0.33000000000000002" alignment="left" title="4" id="GuG-J2-04z">
                                     <fontDescription key="font" type="system" pointSize="15"/>
@@ -69,27 +65,21 @@
                                 </button>
                             </items>
                         </group>
-                        <group width="1" height="0.25" alignment="left" id="hpf-rq-cXr">
+                        <group width="1" height="0.25" alignment="left" verticalAlignment="bottom" id="hpf-rq-cXr">
                             <items>
-                                <button width="0.25" alignment="left" title="0" id="txe-mG-scb">
-                                    <fontDescription key="font" type="system" pointSize="15"/>
-                                    <connections>
-                                        <action selector="pressZero" destination="72l-4Q-nLv" id="KSw-ay-Th9"/>
-                                    </connections>
-                                </button>
-                                <button width="0.25" alignment="left" title="1" id="IIT-qu-Pil">
+                                <button width="0.33000000000000002" alignment="left" title="1" id="IIT-qu-Pil">
                                     <fontDescription key="font" type="system" pointSize="15"/>
                                     <connections>
                                         <action selector="pressOne" destination="72l-4Q-nLv" id="yz7-WS-mtx"/>
                                     </connections>
                                 </button>
-                                <button width="0.25" alignment="left" title="2" id="tqr-jT-Mj4">
+                                <button width="0.33000000000000002" alignment="center" title="2" id="tqr-jT-Mj4">
                                     <fontDescription key="font" type="system" pointSize="15"/>
                                     <connections>
                                         <action selector="pressTwo" destination="72l-4Q-nLv" id="mYN-jW-5SN"/>
                                     </connections>
                                 </button>
-                                <button width="0.25" alignment="left" title="3" id="JX1-40-iJv">
+                                <button width="0.33000000000000002" alignment="right" title="3" id="JX1-40-iJv">
                                     <fontDescription key="font" type="system" pointSize="15"/>
                                     <connections>
                                         <action selector="pressThree" destination="72l-4Q-nLv" id="Y9y-vV-L86"/>
@@ -97,38 +87,78 @@
                                 </button>
                             </items>
                         </group>
+                        <group width="1" height="0.25" alignment="left" verticalAlignment="bottom" id="XcP-aV-Yom">
+                            <items>
+                                <button width="0.33000000000000002" alignment="center" title="C" id="txe-mG-scb">
+                                    <fontDescription key="font" type="system" pointSize="15"/>
+                                    <connections>
+                                        <action selector="clearDisplay" destination="72l-4Q-nLv" id="GR2-Yx-Tvh"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" alignment="center" title="0" id="bgX-ot-yN2">
+                                    <fontDescription key="font" type="system" pointSize="15"/>
+                                    <connections>
+                                        <action selector="pressZero" destination="72l-4Q-nLv" id="DGc-ob-72f"/>
+                                    </connections>
+                                </button>
+                                <button width="0.33000000000000002" alignment="right" title="00" id="uxe-Dq-iI4">
+                                    <fontDescription key="font" type="system" pointSize="15"/>
+                                    <connections>
+                                        <action selector="pressDoubleZero" destination="72l-4Q-nLv" id="KNs-7S-8Dl"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
                     </items>
-                    <connections>
-                        <outlet property="numpadDisplay" destination="0eH-Dz-6VG" id="5Gx-1a-lgf"/>
-                    </connections>
+                    <menu key="menu" id="8Y8-Up-MoV">
+                        <items>
+                            <menuItem title="Clear" icon="decline" id="0xn-ec-F9D">
+                                <connections>
+                                    <action selector="onMenuItemClearTouch" destination="72l-4Q-nLv" id="Zvz-da-hR6"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="252" y="366"/>
+            <point key="canvasLocation" x="121" y="299.5"/>
         </scene>
-        <!--Calculate Total Interface Controller-->
+        <!--Calculate Total-->
         <scene sceneID="9JR-Zv-0yL">
             <objects>
-                <controller id="IsZ-5R-3VC" customClass="CalculateTotalInterfaceController" customModule="Watch_Extension">
+                <controller identifier="Calculate Total" id="IsZ-5R-3VC" customClass="CalculateTotalInterfaceController" customModule="Watch_Extension">
                     <items>
-                        <label alignment="center" text="$100.00" id="gj3-da-pnB"/>
-                        <label alignment="center" text="$15.00" id="WzL-eQ-Cn8"/>
-                        <label alignment="center" text="$115.00" id="mMT-u5-Sit"/>
-                        <label alignment="center" verticalAlignment="bottom" text="15%" id="mWh-AP-jSj"/>
-                        <slider width="1" alignment="left" verticalAlignment="bottom" continuous="YES" value="15" maximum="30" steps="30" id="3qU-Ks-I2b">
+                        <group width="1" height="95.5" alignment="center" layout="vertical" id="XNt-1Q-DMZ">
+                            <items>
+                                <label width="1" height="0.33000000000000002" alignment="center" text="$100.00" textAlignment="center" id="gj3-da-pnB">
+                                    <fontDescription key="font" type="system" pointSize="18"/>
+                                </label>
+                                <label width="1" height="0.33000000000000002" alignment="center" text="$15.00" textAlignment="center" id="WzL-eQ-Cn8">
+                                    <color key="textColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="23"/>
+                                </label>
+                                <label width="1" height="0.33000000000000002" alignment="center" text="$115.00" textAlignment="center" id="mMT-u5-Sit">
+                                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="25"/>
+                                </label>
+                            </items>
+                        </group>
+                        <picker height="45" alignment="center" verticalAlignment="bottom" focusStyle="sequence" indicatorMode="shownWhileFocused" id="KIg-W2-1DJ">
                             <connections>
-                                <action selector="tipChanged:" destination="IsZ-5R-3VC" id="8w8-nT-rNA"/>
+                                <action selector="pickerSelectedItemChanged:" destination="IsZ-5R-3VC" id="1wV-QD-cV4"/>
                             </connections>
-                        </slider>
+                        </picker>
                     </items>
                     <connections>
-                        <outlet property="subtotal" destination="gj3-da-pnB" id="v34-V4-9ou"/>
-                        <outlet property="tip" destination="WzL-eQ-Cn8" id="eA7-pC-g71"/>
-                        <outlet property="tipPercentDisplay" destination="mWh-AP-jSj" id="x3W-gH-OQu"/>
-                        <outlet property="total" destination="mMT-u5-Sit" id="JHg-Ku-dHG"/>
+                        <outlet property="percentPicker" destination="KIg-W2-1DJ" id="d65-Iy-Xeu"/>
+                        <outlet property="subTotalLabel" destination="gj3-da-pnB" id="fJU-CL-Hu9"/>
+                        <outlet property="tipLabel" destination="WzL-eQ-Cn8" id="cIp-aB-g0u"/>
+                        <outlet property="totalLabel" destination="mMT-u5-Sit" id="h3k-of-We0"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="443" y="366"/>
+            <point key="canvasLocation" x="312" y="299"/>
         </scene>
     </scenes>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
 </document>

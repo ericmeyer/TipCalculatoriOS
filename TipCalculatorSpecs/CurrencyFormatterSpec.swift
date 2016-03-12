@@ -5,7 +5,7 @@ import Quick
 class CurrencyFormatterSpec: QuickSpec {
 
     func format(amount: Float) -> String {
-        return CurrencyFormatter().format(amount)
+        return CurrencyFormatter.format(amount: amount)
     }
 
     override func spec() {

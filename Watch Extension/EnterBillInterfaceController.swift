@@ -1,78 +1,104 @@
 import WatchKit
 import Foundation
-import TipCalculator
 
 
 class EnterBillInterfaceController: WKInterfaceController {
-
-    let numpad = Numpad()
-    let formatter = CurrencyFormatter()
-
-    @IBOutlet weak var numpadDisplay: WKInterfaceLabel!
+    var numpad: Numpad!
+    
+    
+    override func awakeWithContext(context: AnyObject?) {
+        super.awakeWithContext(context)
+        
+        if let context: Numpad = context as? Numpad {
+            self.numpad = context
+        }
+    }
 
     override func willActivate() {
-        super.willActivate()
-        clear()
+        super.willActivate()        
+        self.clearDisplay()
     }
+    
+}
 
-    override func contextForSegueWithIdentifier(segueIdentifier: String) -> AnyObject? {
-        return [
-            "billSubTotal" : numpad.value / 100
-        ]
+
+// MARK: Action
+private extension EnterBillInterfaceController {
+    
+    @IBAction func pressDoubleZero() {
+        self.pressDigit(0)
+        self.pressDigit(0)
     }
-
-    @IBAction func clear() {
-        numpad.clear()
-        updateDisplay()
-    }
-
-    private func pressNumber(number: Int) {
-        numpad.press(number: number)
-        updateDisplay()
-    }
-
-    private func updateDisplay() {
-        numpadDisplay.setText(formatter.format(numpad.value / 100))
-    }
-
+    
     @IBAction func pressZero() {
-        pressNumber(0)
+        self.pressDigit(0)
     }
-
+    
     @IBAction func pressOne() {
-        pressNumber(1)
+        self.pressDigit(1)
     }
-
+    
     @IBAction func pressTwo() {
-        pressNumber(2)
+        self.pressDigit(2)
     }
-
+    
     @IBAction func pressThree() {
-        pressNumber(3)
+        self.pressDigit(3)
     }
-
+    
     @IBAction func pressFour() {
-        pressNumber(4)
+        self.pressDigit(4)
     }
-
+    
     @IBAction func pressFive() {
-        pressNumber(5)
+        self.pressDigit(5)
     }
-
+    
     @IBAction func pressSix() {
-        pressNumber(6)
+        self.pressDigit(6)
     }
-
+    
     @IBAction func pressSeven() {
-        pressNumber(7)
+        self.pressDigit(7)
     }
-
+    
     @IBAction func pressEight() {
-        pressNumber(8)
+        self.pressDigit(8)
     }
     
     @IBAction func pressNine() {
-        pressNumber(9)
+        self.pressDigit(9)
     }
     
+    @IBAction func clearDisplay() {
+        self.numpad.clear()
+        self.renderNumpadLabel()
+        print("clearDisplayWithEnteredBill")
+    }
+    
+    
+    @IBAction func onMenuItemClearTouch() {
+        self.clearDisplay()
+        print("onMenuItemClearTouch")
+    }
+}
+
+// MARK: Press digit
+private extension EnterBillInterfaceController {
+    
+    private func pressDigit(digit: Int) {
+        self.numpad.press(digit: digit)
+        self.renderNumpadLabel()
+
+    }
+}
+
+// MARK: Render display
+private extension EnterBillInterfaceController {
+    
+    func renderNumpadLabel() {
+        let billWithCurrency = CurrencyFormatter.format(amount: numpad.display)
+
+        self.setTitle(billWithCurrency)
+    }
 }
